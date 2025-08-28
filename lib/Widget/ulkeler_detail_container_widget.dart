@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+import 'package:gezinti/Detail/detail.dart';
 
 //türkiye dışındaki diğer ülkelerin şehir container yapıları burada tanımlandı
 class UlkelerDetailContainerWidget extends StatelessWidget {
@@ -29,7 +30,14 @@ class UlkelerDetailContainerWidget extends StatelessWidget {
               Padding(
                 padding: const EdgeInsets.only(right: 16.0),
                 child: IconButton(
-                  onPressed: () {},
+                  onPressed: () {
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder: (context) => SehirDetaySayfa(sehirAd: sehirAd),
+                      ),
+                    );
+                  },
                   icon: Icon(
                     FontAwesomeIcons.circleArrowRight,
                     color: Colors.white,

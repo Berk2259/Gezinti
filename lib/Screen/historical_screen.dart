@@ -32,6 +32,11 @@ class HistoricalScreen extends StatelessWidget {
               ulkeAd: 'Fransa',
               indexUlke: 1,
             ),
+            TekUlkeContainerWidget(
+              image: 'assets/images/spain.png',
+              ulkeAd: 'İspanya',
+              indexUlke: 2,
+            ),
           ],
         ),
       ),

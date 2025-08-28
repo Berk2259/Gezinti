@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:gezinti/Detail/detail.dart';
+import 'package:gezinti/Detail/spain_detail.dart';
 
 //Burada ülkelerin container yapısı tanımlanıyor.Her ülke için container yapısı buradan kullanılıyor.
 class TekUlkeContainerWidget extends StatelessWidget {
@@ -16,7 +17,11 @@ class TekUlkeContainerWidget extends StatelessWidget {
   });
 
   //Ulkelerin detail kısımları burada liste olarak tutuluyor
-  final List<Widget> ulkelerDetail = [TurkeyDetail(), FranceDetail()];
+  final List<Widget> ulkelerDetail = [
+    TurkeyDetail(),
+    FranceDetail(),
+    SpainDetail(),
+  ];
   @override
   Widget build(BuildContext context) {
     return Padding(
