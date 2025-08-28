@@ -26,10 +26,12 @@ class HistoricalScreen extends StatelessWidget {
             TekUlkeContainerWidget(
               image: 'assets/images/turkey.png',
               ulkeAd: 'Türkiye',
+              indexUlke: 0,
             ),
             TekUlkeContainerWidget(
               image: 'assets/images/france.png',
               ulkeAd: 'Fransa',
+              indexUlke: 1,
             ),
           ],
         ),

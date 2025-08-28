@@ -1,16 +1,23 @@
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+import 'package:gezinti/Detail/france_detail.dart';
+import 'package:gezinti/Detail/turkey_detail.dart';
 
 //Burada ülkelerin container yapısı tanımlanıyor.Her ülke için container yapısı buradan kullanılıyor.
 class TekUlkeContainerWidget extends StatelessWidget {
   final String image;
   final String ulkeAd;
-  const TekUlkeContainerWidget({
+  final int
+  indexUlke; //Detail kısımları burada tanımlı indexlere göre çekiliyor.
+  TekUlkeContainerWidget({
     super.key,
     required this.image,
     required this.ulkeAd,
+    required this.indexUlke,
   });
 
+  //Ulkelerin detail kısımları burada liste olarak tutuluyor
+  final List<Widget> ulkelerDetail = [TurkeyDetail(), FranceDetail()];
   @override
   Widget build(BuildContext context) {
     return Padding(
@@ -47,7 +54,14 @@ class TekUlkeContainerWidget extends StatelessWidget {
               Padding(
                 padding: const EdgeInsets.only(right: 16.0),
                 child: IconButton(
-                  onPressed: () {},
+                  onPressed: () {
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder: (context) => ulkelerDetail[indexUlke],
+                      ),
+                    );
+                  },
                   icon: Icon(
                     FontAwesomeIcons.circleArrowRight,
                     color: Colors.white,
