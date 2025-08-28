@@ -19,6 +19,7 @@ class _MainScreenState extends State<MainScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      extendBody: true,
       body: _pages[_page],
       bottomNavigationBar: CurvedNavigationBar(
         backgroundColor: Colors.transparent,
