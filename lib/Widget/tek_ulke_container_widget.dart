@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:gezinti/Detail/detail.dart';
-import 'package:gezinti/Detail/spain_detail.dart';
 
 //Burada ülkelerin container yapısı tanımlanıyor.Her ülke için container yapısı buradan kullanılıyor.
 class TekUlkeContainerWidget extends StatelessWidget {

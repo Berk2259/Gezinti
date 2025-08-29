@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:gezinti/Detail/sehir_detail.dart';
+import 'package:gezinti/Detail/detail.dart';
 import 'package:gezinti/Model/model.dart';
-import 'package:gezinti/UlkeContainer/diger_ulkeler_detail_container.dart';
+import 'package:gezinti/UlkeContainer/ulke_container.dart';
 import 'package:gezinti/Widget/widget.dart';
 
 //Fransadaki şehirler burada bulunuyor

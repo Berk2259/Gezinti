@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:gezinti/Detail/sehir_detail.dart';
+import 'package:gezinti/Detail/detail.dart';
 import 'package:gezinti/Model/model.dart';
 import 'package:gezinti/Widget/widget.dart';
 import 'package:gezinti/UlkeContainer/ulke_container.dart';

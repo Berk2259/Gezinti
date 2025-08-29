@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
-import 'package:gezinti/Model/ulke_sehir_model.dart';
+import 'package:gezinti/Model/model.dart';
 
 //Burada Türkiyedeki her bir il için container yapısı tanımlanıyor.
 class TurkeyDetailContainer extends StatelessWidget {
