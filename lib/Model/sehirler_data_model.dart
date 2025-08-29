@@ -2,7 +2,7 @@ import 'package:gezinti/Model/ulke_sehir_model.dart';
 
 // Şehirlerin içindeki bilgiler burada tutuluyor
 
-//Türkiye kısmı burada başlıyor
+//=========Türkiye kısmı burada başlıyor==========
 UlkeSehirModel adana = UlkeSehirModel(
   sehirNumara: '01',
   sehirIsim: 'Adana',
@@ -12,6 +12,8 @@ UlkeSehirModel adana = UlkeSehirModel(
     'Şehrin merkezinde büyük bir park, yürüyüş ve dinlenme için ideal.',
     'Adana\'nın simgesi olan camii, modern ve klasik mimarinin birleşimi.',
   ],
+  enlem: [36.986282568140886, 36.9915814, 36.9959399],
+  boylam: [35.33504495697991, 35.3342198, 35.3318717],
 );
 
 UlkeSehirModel adiyaman = UlkeSehirModel(
@@ -23,9 +25,11 @@ UlkeSehirModel adiyaman = UlkeSehirModel(
     'Roma ve Helenistik dönemlerden kalma antik kent kalıntıları.',
     'Roma döneminden kalma taş köprü, tarih ve doğa iç içe.',
   ],
+  enlem: [],
+  boylam: [],
 );
 
-//Fransa kısmı burada başlıyor
+//===========Fransa kısmı burada başlıyor=============
 UlkeSehirModel paris = UlkeSehirModel(
   sehirIsim: 'Paris',
   gezilecekYerler: ['Eyfel Kulesi', 'Louvre Müzesi', 'Notre-Dame Katedrali'],
@@ -34,6 +38,8 @@ UlkeSehirModel paris = UlkeSehirModel(
     'Dünyaca ünlü sanat eserlerinin sergilendiği devasa müze.',
     'Gotik mimarinin en güzel örneklerinden biri olan tarihi katedral.',
   ],
+  enlem: [],
+  boylam: [],
 );
 
 UlkeSehirModel lille = UlkeSehirModel(
@@ -44,9 +50,11 @@ UlkeSehirModel lille = UlkeSehirModel(
     'Fransa’nın en büyük güzel sanatlar müzelerinden biri.',
     '17. yüzyıldan kalma tarihi bir kale ve park alanı.',
   ],
+  enlem: [],
+  boylam: [],
 );
 
-// İspanya kısmı burada başlıyor
+// ==========İspanya kısmı burada başlıyor============
 UlkeSehirModel barcelona = UlkeSehirModel(
   sehirIsim: 'Barcelona',
   gezilecekYerler: ['Sagrada Familia', 'Park Güell', 'La Rambla'],
@@ -55,6 +63,8 @@ UlkeSehirModel barcelona = UlkeSehirModel(
     'Renkli mozaikler ve heykellerle dolu, şehrin simgesi park.',
     'Şehrin en ünlü caddesi, kafeler, mağazalar ve sokak sanatçılarıyla dolu.',
   ],
+  enlem: [],
+  boylam: [],
 );
 
 UlkeSehirModel madrid = UlkeSehirModel(
@@ -65,4 +75,6 @@ UlkeSehirModel madrid = UlkeSehirModel(
     'Şehir merkezinde büyük bir park, göletler ve yürüyüş yolları mevcut.',
     'İspanya kraliyet ailesinin resmi ikametgahı ve tarihi saray.',
   ],
+  enlem: [],
+  boylam: [],
 );
