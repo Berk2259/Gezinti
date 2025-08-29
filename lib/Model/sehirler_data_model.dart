@@ -1,6 +1,8 @@
 import 'package:gezinti/Model/ulke_sehir_model.dart';
 
 // Şehirlerin içindeki bilgiler burada tutuluyor
+
+//Türkiye kısmı burada başlıyor
 UlkeSehirModel adana = UlkeSehirModel(
   sehirNumara: '01',
   sehirIsim: 'Adana',
@@ -23,6 +25,7 @@ UlkeSehirModel adiyaman = UlkeSehirModel(
   ],
 );
 
+//Fransa kısmı burada başlıyor
 UlkeSehirModel paris = UlkeSehirModel(
   sehirIsim: 'Paris',
   gezilecekYerler: ['Eyfel Kulesi', 'Louvre Müzesi', 'Notre-Dame Katedrali'],
@@ -40,5 +43,26 @@ UlkeSehirModel lille = UlkeSehirModel(
     'Şehrin ana meydanı, kafeler ve çiçeklerle dolu bir buluşma noktası.',
     'Fransa’nın en büyük güzel sanatlar müzelerinden biri.',
     '17. yüzyıldan kalma tarihi bir kale ve park alanı.',
+  ],
+);
+
+// İspanya kısmı burada başlıyor
+UlkeSehirModel barcelona = UlkeSehirModel(
+  sehirIsim: 'Barcelona',
+  gezilecekYerler: ['Sagrada Familia', 'Park Güell', 'La Rambla'],
+  aciklamalar: [
+    'Gaudi tarafından tasarlanmış, tamamlanmamış ünlü kilise ve mimari başyapıt.',
+    'Renkli mozaikler ve heykellerle dolu, şehrin simgesi park.',
+    'Şehrin en ünlü caddesi, kafeler, mağazalar ve sokak sanatçılarıyla dolu.',
+  ],
+);
+
+UlkeSehirModel madrid = UlkeSehirModel(
+  sehirIsim: 'Madrid',
+  gezilecekYerler: ['Prado Müzesi', 'Retiro Parkı', 'Kraliyet Sarayı'],
+  aciklamalar: [
+    'İspanya’nın en ünlü sanat müzesi, Goya ve Velázquez gibi eserleri barındırıyor.',
+    'Şehir merkezinde büyük bir park, göletler ve yürüyüş yolları mevcut.',
+    'İspanya kraliyet ailesinin resmi ikametgahı ve tarihi saray.',
   ],
 );

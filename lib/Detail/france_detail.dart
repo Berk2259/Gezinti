@@ -36,7 +36,6 @@ class FranceDetail extends StatelessWidget {
                 );
               },
             ),
-
             DigerUlkelerDetailContainer(
               ozellikSehir: lille,
               onPressed: () {

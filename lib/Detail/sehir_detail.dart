@@ -3,6 +3,7 @@ import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:gezinti/Model/model.dart';
 import 'package:gezinti/Widget/widget.dart';
 
+//Her şehir için oraya ait yerlerin yapısal özellikleri burada tanımlandı
 class SehirDetail extends StatelessWidget {
   final UlkeSehirModel sehir;
   const SehirDetail({super.key, required this.sehir});
@@ -58,14 +59,11 @@ class SehirDetail extends StatelessWidget {
                   color: Colors.blue.shade900,
                 ),
                 child: ListView.builder(
+                  padding: const EdgeInsets.only(bottom: 16.0),
                   itemCount: sehir.gezilecekYerler.length,
                   itemBuilder: (context, index) {
                     return Padding(
-                      padding: const EdgeInsets.only(
-                        top: 16.0,
-                        left: 16.0,
-                        right: 16.0,
-                      ),
+                      padding: const EdgeInsets.fromLTRB(16, 16, 16, 0),
                       child: Container(
                         width: double.infinity,
                         height: 120,

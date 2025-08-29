@@ -1,6 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:gezinti/Detail/sehir_detail.dart';
+import 'package:gezinti/Model/model.dart';
+import 'package:gezinti/UlkeContainer/diger_ulkeler_detail_container.dart';
 import 'package:gezinti/Widget/widget.dart';
 
+//ispanyadaki şehirler burada bulunacak
 class SpainDetail extends StatelessWidget {
   const SpainDetail({super.key});
 
@@ -19,8 +23,30 @@ class SpainDetail extends StatelessWidget {
           ),
           color: Colors.white,
         ),
-        child: Column(children: [
-
+        child: Column(
+          children: [
+            DigerUlkelerDetailContainer(
+              ozellikSehir: barcelona,
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => SehirDetail(sehir: barcelona),
+                  ),
+                );
+              },
+            ),
+            DigerUlkelerDetailContainer(
+              ozellikSehir: madrid,
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => SehirDetail(sehir: madrid),
+                  ),
+                );
+              },
+            ),
           ],
         ),
       ),
