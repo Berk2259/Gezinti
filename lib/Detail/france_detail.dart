@@ -1,4 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:gezinti/Detail/sehir_detail.dart';
+import 'package:gezinti/Model/model.dart';
+import 'package:gezinti/UlkeContainer/diger_ulkeler_detail_container.dart';
 import 'package:gezinti/Widget/widget.dart';
 
 //Fransadaki şehirler burada bulunuyor
@@ -22,8 +25,29 @@ class FranceDetail extends StatelessWidget {
         ),
         child: Column(
           children: [
-            UlkelerDetailContainerWidget(sehirAd: 'Paris'),
-            UlkelerDetailContainerWidget(sehirAd: 'Lille'),
+            DigerUlkelerDetailContainer(
+              ozellikSehir: paris,
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => SehirDetail(sehir: paris),
+                  ),
+                );
+              },
+            ),
+
+            DigerUlkelerDetailContainer(
+              ozellikSehir: lille,
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => SehirDetail(sehir: lille),
+                  ),
+                );
+              },
+            ),
           ],
         ),
       ),

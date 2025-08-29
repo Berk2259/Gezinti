@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:gezinti/Detail/sehir_detail.dart';
+import 'package:gezinti/Model/model.dart';
 import 'package:gezinti/Widget/widget.dart';
+import 'package:gezinti/UlkeContainer/ulke_container.dart';
 
 //Türkiyedeki iller burada bulunuyor
 class TurkeyDetail extends StatelessWidget {
@@ -22,8 +25,28 @@ class TurkeyDetail extends StatelessWidget {
         ),
         child: Column(
           children: [
-            TurkeyDetailContainerWidget(ilNumara: '01', ilIsim: 'Adana'),
-            TurkeyDetailContainerWidget(ilNumara: '02', ilIsim: 'Adıyaman'),
+            TurkeyDetailContainer(
+              ozellikSehir: adana,
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => SehirDetail(sehir: adana),
+                  ),
+                );
+              },
+            ),
+            TurkeyDetailContainer(
+              ozellikSehir: adiyaman,
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => SehirDetail(sehir: adiyaman),
+                  ),
+                );
+              },
+            ),
           ],
         ),
       ),

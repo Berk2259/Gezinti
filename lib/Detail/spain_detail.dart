@@ -19,10 +19,8 @@ class SpainDetail extends StatelessWidget {
           ),
           color: Colors.white,
         ),
-        child: Column(
-          children: [
-            UlkelerDetailContainerWidget(sehirAd: 'Barcelona'),
-            UlkelerDetailContainerWidget(sehirAd: 'Madrid'),
+        child: Column(children: [
+
           ],
         ),
       ),

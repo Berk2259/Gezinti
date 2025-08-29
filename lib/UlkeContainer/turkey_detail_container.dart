@@ -1,14 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+import 'package:gezinti/Model/ulke_sehir_model.dart';
 
 //Burada Türkiyedeki her bir il için container yapısı tanımlanıyor.
-class TurkeyDetailContainerWidget extends StatelessWidget {
-  final String ilNumara;
-  final String ilIsim;
-  TurkeyDetailContainerWidget({
+class TurkeyDetailContainer extends StatelessWidget {
+  final UlkeSehirModel ozellikSehir;
+  final VoidCallback onPressed;
+  TurkeyDetailContainer({
     super.key,
-    required this.ilNumara,
-    required this.ilIsim,
+    required this.ozellikSehir,
+    required this.onPressed,
   });
 
   @override
@@ -34,7 +35,7 @@ class TurkeyDetailContainerWidget extends StatelessWidget {
                 child: Padding(
                   padding: const EdgeInsets.all(16.0),
                   child: Text(
-                    ilNumara,
+                    ozellikSehir.sehirNumara ?? '',
                     style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
                   ),
                 ),
@@ -43,7 +44,7 @@ class TurkeyDetailContainerWidget extends StatelessWidget {
             Padding(
               padding: const EdgeInsets.only(left: 16.0),
               child: Text(
-                ilIsim,
+                ozellikSehir.sehirIsim,
                 style: TextStyle(fontSize: 24, color: Colors.white),
               ),
             ),
@@ -51,7 +52,7 @@ class TurkeyDetailContainerWidget extends StatelessWidget {
             Padding(
               padding: const EdgeInsets.only(right: 16.0),
               child: IconButton(
-                onPressed: () {},
+                onPressed: onPressed,
                 icon: Icon(
                   FontAwesomeIcons.circleArrowRight,
                   color: Colors.white,
