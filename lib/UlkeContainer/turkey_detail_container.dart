@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:gezinti/Model/model.dart';
+import 'package:gezinti/Widget/widget.dart';
 
 //Burada Türkiyedeki her bir il için container yapısı tanımlanıyor.
 class TurkeyDetailContainer extends StatelessWidget {
@@ -21,7 +22,7 @@ class TurkeyDetailContainer extends StatelessWidget {
         height: 120,
         decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(25),
-          color: Colors.blue.shade900,
+          color: ColorWidget.blue900,
         ),
         child: Row(
           children: [
@@ -30,7 +31,7 @@ class TurkeyDetailContainer extends StatelessWidget {
               child: Container(
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(25),
-                  color: Colors.white,
+                  color: ColorWidget.white,
                 ),
                 child: Padding(
                   padding: const EdgeInsets.all(16.0),
@@ -45,7 +46,7 @@ class TurkeyDetailContainer extends StatelessWidget {
               padding: const EdgeInsets.only(left: 16.0),
               child: Text(
                 ozellikSehir.sehirIsim,
-                style: TextStyle(fontSize: 24, color: Colors.white),
+                style: TextStyle(fontSize: 24, color: ColorWidget.white),
               ),
             ),
             Spacer(),
@@ -55,7 +56,7 @@ class TurkeyDetailContainer extends StatelessWidget {
                 onPressed: onPressedButton,
                 icon: Icon(
                   FontAwesomeIcons.circleArrowRight,
-                  color: Colors.white,
+                  color: ColorWidget.white,
                 ),
               ),
             ),

@@ -21,7 +21,7 @@ class SpainDetail extends StatelessWidget {
             topLeft: Radius.circular(25),
             topRight: Radius.circular(25),
           ),
-          color: Colors.white,
+          color: ColorWidget.white,
         ),
         child: Column(
           children: [

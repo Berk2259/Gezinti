@@ -8,7 +8,7 @@ class HistoricalScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.blue.shade900,
+      backgroundColor: ColorWidget.blue900,
       appBar: AppbarWidget(text: 'Gezinti'),
       body: Container(
         width: double.infinity,
@@ -18,7 +18,7 @@ class HistoricalScreen extends StatelessWidget {
             topLeft: Radius.circular(25),
             topRight: Radius.circular(25),
           ),
-          color: Colors.white,
+          color: ColorWidget.white,
         ),
         child: Column(
           children: [

@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:gezinti/Detail/detail.dart';
+import 'package:gezinti/Widget/color_widget.dart';
 
 //Burada ülkelerin container yapısı tanımlanıyor.Her ülke için container yapısı buradan kullanılıyor.
 class TekUlkeContainerWidget extends StatelessWidget {
@@ -30,7 +31,7 @@ class TekUlkeContainerWidget extends StatelessWidget {
         height: 120,
         decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(25),
-          color: Colors.blue.shade900,
+          color: ColorWidget.blue900,
         ),
         child: Padding(
           padding: const EdgeInsets.only(left: 16.0),
@@ -39,7 +40,7 @@ class TekUlkeContainerWidget extends StatelessWidget {
               Container(
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(25),
-                  color: Colors.white,
+                  color: ColorWidget.white,
                 ),
                 child: Padding(
                   padding: const EdgeInsets.all(8.0),
@@ -50,7 +51,7 @@ class TekUlkeContainerWidget extends StatelessWidget {
                 padding: const EdgeInsets.only(left: 16.0),
                 child: Text(
                   ulkeAd,
-                  style: TextStyle(fontSize: 24, color: Colors.white),
+                  style: TextStyle(fontSize: 24, color: ColorWidget.white),
                 ),
               ),
               Spacer(),
@@ -67,7 +68,7 @@ class TekUlkeContainerWidget extends StatelessWidget {
                   },
                   icon: Icon(
                     FontAwesomeIcons.circleArrowRight,
-                    color: Colors.white,
+                    color: ColorWidget.white,
                   ),
                 ),
               ),

@@ -1,6 +1,7 @@
 import 'package:curved_navigation_bar/curved_navigation_bar.dart';
 import 'package:flutter/material.dart';
 import 'package:gezinti/Screen/screen.dart';
+import 'package:gezinti/Widget/widget.dart';
 
 class MainScreen extends StatefulWidget {
   const MainScreen({super.key});
@@ -13,8 +14,8 @@ class _MainScreenState extends State<MainScreen> {
   int _page = 0;
   final List<Widget> _pages = [HistoricalScreen(), InformationScreen()];
   final List<Widget> _images = [
-    Image.asset('assets/images/ancient.png', color: Colors.white),
-    Image.asset('assets/images/info.png', color: Colors.white),
+    Image.asset('assets/images/ancient.png', color: ColorWidget.white),
+    Image.asset('assets/images/info.png', color: ColorWidget.white),
   ];
   @override
   Widget build(BuildContext context) {
@@ -22,8 +23,8 @@ class _MainScreenState extends State<MainScreen> {
       extendBody: true,
       body: _pages[_page],
       bottomNavigationBar: CurvedNavigationBar(
-        backgroundColor: Colors.transparent,
-        color: Colors.blue.shade900,
+        backgroundColor: ColorWidget.transparent,
+        color: ColorWidget.blue900,
         height: 65,
         animationDuration: Duration(milliseconds: 300),
         items: _images,

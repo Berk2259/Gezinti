@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:gezinti/Model/model.dart';
+import 'package:gezinti/Widget/color_widget.dart';
 
 //Burada Türkiye dışındaki diğer ülkelerin il container yapıları tanımlanıyor
 class DigerUlkelerDetailContainer extends StatelessWidget {
@@ -21,7 +22,7 @@ class DigerUlkelerDetailContainer extends StatelessWidget {
         height: 120,
         decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(25),
-          color: Colors.blue.shade900,
+          color: ColorWidget.blue900,
         ),
         child: Row(
           children: [
@@ -29,7 +30,7 @@ class DigerUlkelerDetailContainer extends StatelessWidget {
               padding: const EdgeInsets.only(left: 16.0),
               child: Text(
                 ozellikSehir.sehirIsim,
-                style: TextStyle(fontSize: 24, color: Colors.white),
+                style: TextStyle(fontSize: 24, color: ColorWidget.white),
               ),
             ),
             Spacer(),
@@ -39,7 +40,7 @@ class DigerUlkelerDetailContainer extends StatelessWidget {
                 onPressed: onPressedButton,
                 icon: Icon(
                   FontAwesomeIcons.circleArrowRight,
-                  color: Colors.white,
+                  color: ColorWidget.white,
                 ),
               ),
             ),

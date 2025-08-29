@@ -11,7 +11,7 @@ class TurkeyDetail extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.blue.shade900,
+      backgroundColor: ColorWidget.blue900,
       appBar: AppbarWidget(text: 'Türkiye'),
       body: Container(
         width: double.infinity,
@@ -21,7 +21,7 @@ class TurkeyDetail extends StatelessWidget {
             topLeft: Radius.circular(25),
             topRight: Radius.circular(25),
           ),
-          color: Colors.white,
+          color: ColorWidget.white,
         ),
         child: Column(
           children: [

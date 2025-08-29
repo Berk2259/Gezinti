@@ -11,7 +11,7 @@ class FranceDetail extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.blue.shade900,
+      backgroundColor: ColorWidget.blue900,
       appBar: AppbarWidget(text: 'Fransa'),
       body: Container(
         width: double.infinity,

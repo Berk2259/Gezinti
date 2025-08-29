@@ -34,7 +34,7 @@ class SehirDetail extends StatelessWidget {
               height: 120,
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(25),
-                color: Colors.blue.shade900,
+                color: ColorWidget.blue900,
               ),
               child: Row(
                 children: [
@@ -43,7 +43,7 @@ class SehirDetail extends StatelessWidget {
                     child: Container(
                       decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(25),
-                        color: Colors.white,
+                        color: ColorWidget.white,
                       ),
                       child: Padding(
                         padding: const EdgeInsets.all(16.0),
@@ -55,7 +55,7 @@ class SehirDetail extends StatelessWidget {
                     padding: const EdgeInsets.only(left: 16.0),
                     child: Text(
                       'Gezilecek Yerler',
-                      style: TextStyle(fontSize: 24, color: Colors.white),
+                      style: TextStyle(fontSize: 24, color: ColorWidget.white),
                     ),
                   ),
                 ],
@@ -69,7 +69,7 @@ class SehirDetail extends StatelessWidget {
                 width: double.infinity,
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(25),
-                  color: Colors.blue.shade900,
+                  color: ColorWidget.blue900,
                 ),
                 child: ListView.builder(
                   padding: const EdgeInsets.only(bottom: 16.0),
@@ -81,7 +81,7 @@ class SehirDetail extends StatelessWidget {
                         width: double.infinity,
                         decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(25),
-                          color: Colors.white,
+                          color: ColorWidget.white,
                         ),
                         child: Column(
                           crossAxisAlignment: CrossAxisAlignment.start,
@@ -102,22 +102,22 @@ class SehirDetail extends StatelessWidget {
                             Padding(
                               padding: const EdgeInsets.all(8.0),
                               child: ElevatedButton.icon(
-                                onPressed: (index < sehir.enlem.length && index < sehir.boylam.length)
-                                    ? () => _openGoogleMaps(
+                                onPressed:
+                                    (index < sehir.enlem.length &&
+                                            index < sehir.boylam.length)
+                                        ? () => _openGoogleMaps(
                                           sehir.enlem[index],
                                           sehir.boylam[index],
                                         )
-                                    : null,
+                                        : null,
                                 label: Text(
                                   'Konum',
-                                  style: TextStyle(color: Colors.white),
+                                  style: TextStyle(color: ColorWidget.white),
                                 ),
                                 icon: Icon(FontAwesomeIcons.locationDot),
                                 style: ElevatedButton.styleFrom(
-                                  iconColor: Colors.white,
-                                  backgroundColor: Colors.blue.shade900,
-                                  disabledBackgroundColor: Colors.blue.shade200,
-                                  disabledForegroundColor: Colors.white70,
+                                  iconColor: ColorWidget.white,
+                                  backgroundColor: ColorWidget.blue900,
                                 ),
                               ),
                             ),

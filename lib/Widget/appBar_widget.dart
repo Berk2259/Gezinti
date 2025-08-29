@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:gezinti/Widget/color_widget.dart';
 
 //Kendi özelleştirdiğim appBar burada bulunuyor.
 class AppbarWidget extends StatelessWidget implements PreferredSizeWidget {
@@ -8,10 +9,10 @@ class AppbarWidget extends StatelessWidget implements PreferredSizeWidget {
   @override
   Widget build(BuildContext context) {
     return AppBar(
-      iconTheme: IconThemeData(color: Colors.white),
-      backgroundColor: Colors.blue.shade900,
+      iconTheme: IconThemeData(color: ColorWidget.white),
+      backgroundColor: ColorWidget.blue900,
       centerTitle: true,
-      title: Text(text, style: TextStyle(color: Colors.white)),
+      title: Text(text, style: TextStyle(color: ColorWidget.white)),
     );
   }
 
