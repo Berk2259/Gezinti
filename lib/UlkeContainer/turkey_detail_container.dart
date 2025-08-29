@@ -5,11 +5,11 @@ import 'package:gezinti/Model/model.dart';
 //Burada Türkiyedeki her bir il için container yapısı tanımlanıyor.
 class TurkeyDetailContainer extends StatelessWidget {
   final UlkeSehirModel ozellikSehir;
-  final VoidCallback onPressed;
+  final VoidCallback onPressedButton;
   TurkeyDetailContainer({
     super.key,
     required this.ozellikSehir,
-    required this.onPressed,
+    required this.onPressedButton,
   });
 
   @override
@@ -52,7 +52,7 @@ class TurkeyDetailContainer extends StatelessWidget {
             Padding(
               padding: const EdgeInsets.only(right: 16.0),
               child: IconButton(
-                onPressed: onPressed,
+                onPressed: onPressedButton,
                 icon: Icon(
                   FontAwesomeIcons.circleArrowRight,
                   color: Colors.white,

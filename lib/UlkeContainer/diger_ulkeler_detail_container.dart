@@ -5,11 +5,11 @@ import 'package:gezinti/Model/model.dart';
 //Burada Türkiye dışındaki diğer ülkelerin il container yapıları tanımlanıyor
 class DigerUlkelerDetailContainer extends StatelessWidget {
   final UlkeSehirModel ozellikSehir;
-  final VoidCallback onPressed;
+  final VoidCallback onPressedButton;
   DigerUlkelerDetailContainer({
     super.key,
     required this.ozellikSehir,
-    required this.onPressed,
+    required this.onPressedButton,
   });
 
   @override
@@ -36,7 +36,7 @@ class DigerUlkelerDetailContainer extends StatelessWidget {
             Padding(
               padding: const EdgeInsets.only(right: 16.0),
               child: IconButton(
-                onPressed: onPressed,
+                onPressed: onPressedButton,
                 icon: Icon(
                   FontAwesomeIcons.circleArrowRight,
                   color: Colors.white,

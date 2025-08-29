@@ -27,7 +27,7 @@ class FranceDetail extends StatelessWidget {
           children: [
             DigerUlkelerDetailContainer(
               ozellikSehir: paris,
-              onPressed: () {
+              onPressedButton: () {
                 Navigator.push(
                   context,
                   MaterialPageRoute(
@@ -38,7 +38,7 @@ class FranceDetail extends StatelessWidget {
             ),
             DigerUlkelerDetailContainer(
               ozellikSehir: lille,
-              onPressed: () {
+              onPressedButton: () {
                 Navigator.push(
                   context,
                   MaterialPageRoute(

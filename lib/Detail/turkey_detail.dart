@@ -27,7 +27,7 @@ class TurkeyDetail extends StatelessWidget {
           children: [
             TurkeyDetailContainer(
               ozellikSehir: adana,
-              onPressed: () {
+              onPressedButton: () {
                 Navigator.push(
                   context,
                   MaterialPageRoute(
@@ -38,7 +38,7 @@ class TurkeyDetail extends StatelessWidget {
             ),
             TurkeyDetailContainer(
               ozellikSehir: adiyaman,
-              onPressed: () {
+              onPressedButton: () {
                 Navigator.push(
                   context,
                   MaterialPageRoute(
