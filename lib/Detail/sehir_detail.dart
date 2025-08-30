@@ -3,24 +3,11 @@ import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:gezinti/Detail/detail.dart';
 import 'package:gezinti/Model/model.dart';
 import 'package:gezinti/Widget/widget.dart';
-import 'package:url_launcher/url_launcher.dart';
 
 //Her şehir için oraya ait yerlerin yapısal özellikleri burada tanımlandı
 class SehirDetail extends StatelessWidget {
   final UlkeSehirModel sehir;
   const SehirDetail({super.key, required this.sehir});
-
-  Future<void> _openGoogleMaps(double lat, double lng) async {
-    final Uri googleUrl = Uri.parse(
-      'https://www.google.com/maps/search/?api=1&query=$lat,$lng',
-    );
-
-    if (await canLaunchUrl(googleUrl)) {
-      await launchUrl(googleUrl, mode: LaunchMode.externalApplication);
-    } else {
-      debugPrint('URL açılamıyor: $googleUrl');
-    }
-  }
 
   @override
   Widget build(BuildContext context) {
@@ -104,8 +91,9 @@ class SehirDetail extends StatelessWidget {
                             Padding(
                               padding: const EdgeInsets.only(
                                 top: 8.0,
-                                left: 8.0,
-                                bottom: 8.0,
+                                left: 16.0,
+                                bottom: 16.0,
+                                right: 16.0,
                               ),
                               child: ElevatedButton.icon(
                                 onPressed: () {
@@ -126,6 +114,7 @@ class SehirDetail extends StatelessWidget {
                                 style: ElevatedButton.styleFrom(
                                   iconColor: ColorWidget.white,
                                   backgroundColor: ColorWidget.blue900,
+                                  minimumSize: Size(double.infinity, 35),
                                 ),
                               ),
                             ),
