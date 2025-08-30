@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:gezinti/Detail/sehir_detail.dart';
 import 'package:gezinti/Model/model.dart';
-import 'package:gezinti/UlkeContainer/diger_ulkeler_detail_container.dart';
+import 'package:gezinti/Container/diger_ulkeler_detail_container.dart';
 import 'package:gezinti/Widget/widget.dart';
 
 //ispanyadaki şehirler burada bulunacak

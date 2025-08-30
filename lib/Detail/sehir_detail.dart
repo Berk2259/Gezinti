@@ -76,12 +76,18 @@ class SehirDetail extends StatelessWidget {
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
                             ListTile(
-                              title: Text(
-                                sehir.mekanlar[index].mekanIsim,
-                                style: TextStyle(
-                                  fontWeight: FontWeight.bold,
-                                  fontSize: 20,
-                                ),
+                              title: Row(
+                                children: [
+                                  Text(
+                                    sehir.mekanlar[index].mekanIsim,
+                                    style: TextStyle(
+                                      fontWeight: FontWeight.bold,
+                                      fontSize: 20,
+                                    ),
+                                  ),
+                                  Spacer(),
+                                  mekan.tags,
+                                ],
                               ),
                               subtitle: Text(
                                 sehir.mekanlar[index].mekanAciklama,

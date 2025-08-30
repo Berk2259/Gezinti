@@ -33,4 +33,16 @@ class ColorWidget {
   static const Color black45 = Color(0x73000000);
   static const Color black54 = Color(0x8A000000);
   static const Color black87 = Color(0xDD000000);
+
+  //==============Red Section===============
+  static const Color red50 = Color(0xFFFFEBEE);
+  static const Color red100 = Color(0xFFFFCDD2);
+  static const Color red200 = Color(0xFFEF9A9A);
+  static const Color red300 = Color(0xFFE57373);
+  static const Color red400 = Color(0xFFEF5350);
+  static const Color red500 = Color(0xFFF44336);
+  static const Color red600 = Color(0xFFE53935);
+  static const Color red700 = Color(0xFFD32F2F);
+  static const Color red800 = Color(0xFFC62828);
+  static const Color red900 = Color(0xFFB71C1C);
 }

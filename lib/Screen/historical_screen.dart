@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:gezinti/Widget/widget.dart';
+import 'package:gezinti/Container/container.dart';
 
 //Uygulamanın ana sayfasıdır ülkeler burada listeleniyor.
 class HistoricalScreen extends StatelessWidget {
