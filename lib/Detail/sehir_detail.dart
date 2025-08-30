@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+import 'package:gezinti/Detail/detail.dart';
 import 'package:gezinti/Model/model.dart';
 import 'package:gezinti/Widget/widget.dart';
 import 'package:url_launcher/url_launcher.dart';
@@ -73,8 +74,9 @@ class SehirDetail extends StatelessWidget {
                 ),
                 child: ListView.builder(
                   padding: const EdgeInsets.only(bottom: 16.0),
-                  itemCount: sehir.gezilecekYerler.length,
+                  itemCount: sehir.mekanlar.length,
                   itemBuilder: (context, index) {
+                    final mekan = sehir.mekanlar[index];
                     return Padding(
                       padding: const EdgeInsets.fromLTRB(16, 16, 16, 0),
                       child: Container(
@@ -88,33 +90,39 @@ class SehirDetail extends StatelessWidget {
                           children: [
                             ListTile(
                               title: Text(
-                                sehir.gezilecekYerler[index],
+                                sehir.mekanlar[index].mekanIsim,
                                 style: TextStyle(
                                   fontWeight: FontWeight.bold,
                                   fontSize: 20,
                                 ),
                               ),
                               subtitle: Text(
-                                sehir.aciklamalar[index],
+                                sehir.mekanlar[index].mekanAciklama,
                                 style: TextStyle(fontSize: 16),
                               ),
                             ),
                             Padding(
-                              padding: const EdgeInsets.all(8.0),
+                              padding: const EdgeInsets.only(
+                                top: 8.0,
+                                left: 8.0,
+                                bottom: 8.0,
+                              ),
                               child: ElevatedButton.icon(
-                                onPressed:
-                                    (index < sehir.enlem.length &&
-                                            index < sehir.boylam.length)
-                                        ? () => _openGoogleMaps(
-                                          sehir.enlem[index],
-                                          sehir.boylam[index],
-                                        )
-                                        : null,
+                                onPressed: () {
+                                  Navigator.push(
+                                    context,
+                                    MaterialPageRoute(
+                                      builder:
+                                          (context) =>
+                                              SehirMekanDetail(mekan: mekan),
+                                    ),
+                                  );
+                                },
+                                icon: Icon(FontAwesomeIcons.info),
                                 label: Text(
-                                  'Konum',
+                                  'Detay',
                                   style: TextStyle(color: ColorWidget.white),
                                 ),
-                                icon: Icon(FontAwesomeIcons.locationDot),
                                 style: ElevatedButton.styleFrom(
                                   iconColor: ColorWidget.white,
                                   backgroundColor: ColorWidget.blue900,

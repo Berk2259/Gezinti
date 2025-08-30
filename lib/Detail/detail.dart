@@ -22,3 +22,4 @@ export 'slovakia_detail.dart';
 export 'albania_detail.dart';
 export 'croatia_detail.dart';
 export 'north_macedonia_detail.dart';
+export 'sehir_mekan_detail.dart';
