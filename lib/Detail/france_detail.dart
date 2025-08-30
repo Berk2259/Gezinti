@@ -21,7 +21,7 @@ class FranceDetail extends StatelessWidget {
             topLeft: Radius.circular(25),
             topRight: Radius.circular(25),
           ),
-          color: ColorWidget.white,
+          color: ColorWidget.blue200,
         ),
         child: Column(
           children: [
