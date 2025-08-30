@@ -1,5 +1,5 @@
 import 'package:gezinti/Model/model.dart';
-import 'package:gezinti/Widget/tag_widget.dart';
+import 'package:gezinti/Widget/widget.dart';
 
 // Şehirlerin içindeki bilgiler burada tutuluyor
 

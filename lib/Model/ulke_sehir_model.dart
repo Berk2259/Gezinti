@@ -1,4 +1,3 @@
-import 'package:flutter/material.dart';
 import 'package:gezinti/Model/model.dart';
 
 //Şehirlerin container özellikleri burada tutuluyor
