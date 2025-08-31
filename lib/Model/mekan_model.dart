@@ -5,14 +5,12 @@ import 'package:flutter/material.dart';
 class MekanModel {
   final String mekanIsim;
   final String mekanAciklama;
-  final double? enlem;
-  final double? boylam;
+  final String? mapsUrl;
   final Icon tags;
   MekanModel({
     required this.mekanIsim,
     required this.mekanAciklama,
-    required this.enlem,
-    required this.boylam,
+    this.mapsUrl,
     required this.tags,
   });
 }

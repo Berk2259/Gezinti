@@ -9,10 +9,8 @@ class SehirMekanDetail extends StatelessWidget {
   final MekanModel mekan;
   const SehirMekanDetail({super.key, required this.mekan});
 
-  Future<void> _openGoogleMaps(double lat, double lng) async {
-    final Uri googleUrl = Uri.parse(
-      'https://www.google.com/maps/search/?api=1&query=$lat,$lng',
-    );
+  Future<void> _openGoogleMaps(String mapsUrl) async {
+    final Uri googleUrl = Uri.parse(mapsUrl);
 
     if (await canLaunchUrl(googleUrl)) {
       await launchUrl(googleUrl, mode: LaunchMode.externalApplication);
@@ -43,8 +41,8 @@ class SehirMekanDetail extends StatelessWidget {
               padding: const EdgeInsets.all(16.0),
               child: ElevatedButton.icon(
                 onPressed:
-                    (mekan.enlem != null && mekan.boylam != null)
-                        ? () => _openGoogleMaps(mekan.enlem!, mekan.boylam!)
+                    (mekan.mapsUrl != null && mekan.mapsUrl!.isNotEmpty)
+                        ? () => _openGoogleMaps(mekan.mapsUrl!)
                         : null,
                 label: Text(
                   'Konum',
