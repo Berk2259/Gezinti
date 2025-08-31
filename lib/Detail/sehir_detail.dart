@@ -13,7 +13,20 @@ class SehirDetail extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: ColorWidget.blue900,
-      appBar: AppbarWidget(text: sehir.sehirIsim),
+      appBar: AppbarWidget(
+        text: sehir.sehirIsim,
+        button: IconButton(
+          onPressed: () {
+            showDialog(
+              context: context,
+              builder: (BuildContext context) {
+                return AlertDialogWidget();
+              },
+            );
+          },
+          icon: Icon(FontAwesomeIcons.circleInfo),
+        ),
+      ),
       body: Container(
         width: double.infinity,
         height: MediaQuery.of(context).size.height,
