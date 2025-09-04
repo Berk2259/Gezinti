@@ -14,6 +14,28 @@ UlkeSehirModel adana = UlkeSehirModel(
           'Roma döneminden kalma tarihi köprü, Seyhan Nehri üzerinde bulunuyor.',
       mapsUrl: 'https://maps.app.goo.gl/UudKQQ3oQV7v2Km28',
       tags: TagWidget.tarihiYer,
+      mekanDetayAciklama:
+          'Adana’nın simgelerinden biri olan Taşköprü, Seyhan Nehri üzerinde yer alır ve dünyanın hâlen kullanılan en eski köprülerinden biridir.',
+      mekanTarihce: [
+        '• Roma İmparatoru Hadrianus (M.S. 117–138) döneminde inşa edildiği kabul edilir.',
+        '• 6.yüzyılda Bizans İmparatoru I. Justinianus döneminde kapsamlı bir onarım gördü.',
+        '• Orta Çağ’dan Osmanlı dönemine kadar çeşitli bakım ve onarımlar yapılmıştır.',
+        '• Osmanlı döneminde de yoğun olarak kullanıldı ve Adana’nın şehir içi ulaşımında stratejik bir rol oynadı.',
+      ],
+      mekanGunumuzde: [
+        '• Taşköprü, 2006–2007 restorasyon çalışmaları sonrası motorlu araç trafiğine kapatıldı.',
+        '• Günümüzde yalnızca yayalara ve bisikletlilere açıktır.',
+        '• Çevresinde modern Adana ile tarih iç içe geçmiştir; özellikle Merkez Park ve Sabancı Merkez Camii ile birlikte şehrin en önemli sembollerindendir.',
+      ],
+      mekanOnemi: [
+        '• UNESCO Dünya Mirası Geçici Listesi’ne aday gösterilmiştir.',
+        '• Roma döneminden günümüze kadar kesintisiz kullanılan ender eserlerden biridir.',
+        '• Adana’nın kültürel mirasının en önemli parçalarından biridir.',
+      ],
+      mekanFotolar: [
+        'assets/images/adana_TasKöprü.jpg',
+        'assets/images/adana_TasKöprü2.jpg',
+      ],
     ),
     MekanModel(
       mekanIsim: 'Büyük Saat Kulesi',

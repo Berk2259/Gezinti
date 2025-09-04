@@ -7,10 +7,20 @@ class MekanModel {
   final String mekanAciklama;
   final String? mapsUrl;
   final Icon tags;
+  final String? mekanDetayAciklama;
+  final List<String>? mekanTarihce;
+  final List<String>? mekanGunumuzde;
+  final List<String>? mekanOnemi;
+  final List<String>? mekanFotolar;
   MekanModel({
     required this.mekanIsim,
     required this.mekanAciklama,
     this.mapsUrl,
     required this.tags,
+    this.mekanDetayAciklama,
+    this.mekanTarihce,
+    this.mekanGunumuzde,
+    this.mekanOnemi,
+    this.mekanFotolar,
   });
 }
