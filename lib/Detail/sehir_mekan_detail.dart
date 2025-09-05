@@ -152,7 +152,7 @@ class SehirMekanDetail extends StatelessWidget {
                                         panEnabled: true, //resmi sürükleme
                                         minScale: 1, //minimum zoom
                                         maxScale: 4, //maksimum zoom
-                                        child: Image.asset(
+                                        child: Image.network(
                                           foto,
                                           fit:
                                               BoxFit
@@ -170,7 +170,7 @@ class SehirMekanDetail extends StatelessWidget {
                               ),
                               child: ClipRRect(
                                 borderRadius: BorderRadius.circular(12),
-                                child: Image.asset(foto, fit: BoxFit.cover),
+                                child: Image.network(foto, fit: BoxFit.cover),
                               ),
                             ),
                           );
