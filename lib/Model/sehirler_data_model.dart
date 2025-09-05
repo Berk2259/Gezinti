@@ -42,6 +42,32 @@ UlkeSehirModel adana = UlkeSehirModel(
       mekanAciklama:
           'Osmanlı döneminden kalma, Türkiye’nin en yüksek saat kulesi.',
       tags: TagWidget.tarihiYer,
+      mapsUrl: 'https://maps.app.goo.gl/qdMx722BmUACN9Hj7',
+      mekanDetayAciklama:
+          'Adana’nın en önemli simgelerinden biri olan Büyük Saat Kulesi, Türkiye’nin en uzun saat kulesidir.',
+      mekanTarihce: [
+        '• Kule, Adana Valisi Abidin Paşa döneminde (1881) inşa edilmeye başlandı.',
+        '• İnşaatı, Abidin Paşa’nın görev süresi bitince yeni vali Ziya Paşa tarafından tamamlandı.',
+        '• 1882 yılında kullanıma açıldı.',
+        '• O dönem Osmanlı’da saat kuleleri, modernleşmenin ve şehir düzeninin sembolüydü.',
+      ],
+      mekanGunumuzde: [
+        '• Büyük Saat Kulesi, Adana Ulu Cami ve Kazancılar Çarşısı yakınında yer alır.',
+        '• Çevresinde geleneksel çarşı dokusu hâlen korunmaktadır.',
+        '• Hâlâ çalışan saati ile şehrin merkezi noktalarından biridir.',
+        '• Adana’ya gelen turistlerin mutlaka uğradığı yerler arasındadır.',
+      ],
+      mekanOnemi: [
+        '• Türkiye’deki saat kuleleri arasında en uzun olanıdır.',
+        '• Osmanlı’nın şehircilik anlayışını ve modernleşme sürecini yansıtır.',
+        '• Adana’nın tarihî ve kültürel kimliğinin ayrılmaz bir parçasıdır.',
+      ],
+      mekanFotolar: [
+        'assets/images/adana_saat.jpg',
+        'assets/images/adana_saat2.jpg',
+        'assets/images/adana_saat3.jpg',
+        'assets/images/adana_saat4.jpg',
+      ],
     ),
     MekanModel(
       mekanIsim: 'Adana Ulu Camii',
