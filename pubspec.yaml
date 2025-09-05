@@ -41,13 +41,37 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
+  flutter_native_splash: ^2.3.0
+  flutter_lints: ^5.0.0
+
+
+flutter_native_splash:
+  color: "#298CB2"
+  image: assets/images/logo.png
+  android: true
+  ios: true
+  fullscreen: true
+  
+  # Koyu tema (opsiyonel)
+  color_dark: "#298CB2"
+  image_dark: assets/images/logo.png
+
+  # Android 12+ sistem splash ayarları
+  android_12:
+    image: assets/images/logo.png
+    color: "#298CB2"
+    # Koyu tema varyantları (opsiyonel)
+    color_dark: "#298CB2"
+    image_dark: assets/images/logo.png
+
+  android_gravity: center
+  ios_content_mode: center
 
   # The "flutter_lints" package below contains a set of recommended lints to
   # encourage good coding practices. The lint set provided by the package is
   # activated in the `analysis_options.yaml` file located at the root of your
   # package. See that file for information about deactivating specific lint
   # rules and activating additional ones.
-  flutter_lints: ^5.0.0
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
