@@ -21,40 +21,55 @@ class AlertDialogWidget extends StatelessWidget {
                 'Etiket Anlamları',
                 style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
               ),
-              Row(
+              Column(
                 children: [
-                  Icon(FontAwesomeIcons.tag, color: ColorWidget.red500),
-                  Padding(
-                    padding: const EdgeInsets.only(left: 16.0),
-                    child: Text(
-                      'Tarihi Mekanlar',
-                      style: TextStyle(fontSize: 18),
-                    ),
+                  Row(
+                    children: [
+                      Icon(FontAwesomeIcons.tag, color: ColorWidget.red500),
+                      Padding(
+                        padding: const EdgeInsets.only(left: 16.0),
+                        child: Text(
+                          'Tarihi Mekanlar',
+                          style: TextStyle(fontSize: 18),
+                        ),
+                      ),
+                    ],
                   ),
+                  Text('Tarihi mekanları belirten etiket'),
                 ],
               ),
-              Row(
+              Column(
                 children: [
-                  Icon(FontAwesomeIcons.tag, color: Colors.deepPurple),
-                  Padding(
-                    padding: const EdgeInsets.only(left: 16.0),
-                    child: Text(
-                      'Doğal Güzellikler',
-                      style: TextStyle(fontSize: 18),
-                    ),
+                  Row(
+                    children: [
+                      Icon(FontAwesomeIcons.tag, color: Colors.deepPurple),
+                      Padding(
+                        padding: const EdgeInsets.only(left: 16.0),
+                        child: Text(
+                          'Doğal Güzellikler',
+                          style: TextStyle(fontSize: 18),
+                        ),
+                      ),
+                    ],
                   ),
+                  Text('Doğal Mekanları belirten etiket'),
                 ],
               ),
-              Row(
+              Column(
                 children: [
-                  Icon(FontAwesomeIcons.tag, color: Colors.lightGreen),
-                  Padding(
-                    padding: const EdgeInsets.only(left: 16.0),
-                    child: Text(
-                      'Eğlenceli Yerler',
-                      style: TextStyle(fontSize: 18),
-                    ),
+                  Row(
+                    children: [
+                      Icon(FontAwesomeIcons.tag, color: Colors.lightGreen),
+                      Padding(
+                        padding: const EdgeInsets.only(left: 16.0),
+                        child: Text(
+                          'Eğlenceli Yerler',
+                          style: TextStyle(fontSize: 18),
+                        ),
+                      ),
+                    ],
                   ),
+                  Text('Eğlenceli Yerleri belirten etiket'),
                 ],
               ),
               SizedBox(height: 30),
