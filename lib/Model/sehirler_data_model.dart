@@ -308,7 +308,6 @@ UlkeSehirModel adana = UlkeSehirModel(
       ],
       mekanFotolar: [
         'https://images.pexels.com/photos/13923399/pexels-photo-13923399.jpeg',
-        '',
       ],
     ),
     MekanModel(
@@ -369,6 +368,7 @@ UlkeSehirModel adana = UlkeSehirModel(
     ),
   ],
 );
+
 
 UlkeSehirModel adiyaman = UlkeSehirModel(
   sehirNumara: '02',

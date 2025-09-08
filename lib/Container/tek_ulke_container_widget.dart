@@ -16,6 +16,8 @@ class TekUlkeContainerWidget extends StatelessWidget {
     required this.indexUlke,
   });
 
+  //BU üstteki özellikler model kısmına gönderilebilir
+
   //Ulkelerin detail kısımları burada liste olarak tutuluyor
   final List<Widget> ulkelerDetail = [
     TurkeyDetail(),

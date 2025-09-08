@@ -123,7 +123,8 @@ class SehirMekanDetail extends StatelessWidget {
                           style: TextStyle(fontSize: 16),
                         ),
                       ),
-                      // fotoğraf kısmı burada
+                      
+                      // Fotoğraf kısmı burada
                       GridView.builder(
                         //liste uzunluğuna göre hücreleri üretir
                         shrinkWrap: true, //içeriğe göre boyut almayı sağlar
@@ -181,6 +182,8 @@ class SehirMekanDetail extends StatelessWidget {
                 ),
               ),
             ),
+
+            //Konum Butonu burada bulunur
             Padding(
               padding: const EdgeInsets.only(
                 left: 32.0,

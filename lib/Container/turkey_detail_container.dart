@@ -13,6 +13,7 @@ class TurkeyDetailContainer extends StatelessWidget {
     required this.onPressedButton,
   });
 
+//Özellikleri modelda tnaımlyabilirsin 
   @override
   Widget build(BuildContext context) {
     return Padding(
