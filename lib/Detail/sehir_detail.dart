@@ -73,7 +73,13 @@ class SehirDetail extends StatelessWidget {
                                   ),
                                 ),
                                 Spacer(),
-                                mekan.tags,
+                                Icon(
+                                  FontAwesomeIcons.tag, // Sabit icon
+                                  color:
+                                      sehir
+                                          .mekanlar[index]
+                                          .tagColor, // Her mekanın kendi rengi
+                                ),
                               ],
                             ),
                             subtitle: Text(

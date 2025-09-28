@@ -27,34 +27,9 @@ class SpainDetail extends StatelessWidget {
         child: FutureBuilder<List<UlkeSehirModel>>(
           future: DataService().loadJsonData(),
           builder: (context, snapshot) {
-            if (snapshot.connectionState == ConnectionState.waiting) {
-              return Center(
-                child: CircularProgressIndicator(color: ColorWidget.blue900),
-              );
-            }
-            if (snapshot.hasError) {
-              return Center(
-                child: Text(
-                  'Veri yüklenemedi',
-                  style: TextStyle(color: ColorWidget.white),
-                ),
-              );
-            }
             final List<UlkeSehirModel> tumSehirler = snapshot.data ?? [];
-            // 1) Önce ulkeKodu ile filtrele (JSON'da varsa en basit ve sağlam yol)
             List<UlkeSehirModel> sehirler =
                 tumSehirler.where((s) => s.ulkeKodu == 'ES').toList();
-            // 2) Eğer JSON'da ulkeKodu yoksa, eski fallback: isim bazlı ve plaka null
-            if (sehirler.isEmpty) {
-              final Set<String> ispanyaSehirIsimleri = {'Barcelona', 'Madrid'};
-              sehirler = tumSehirler
-                  .where(
-                    (s) => s.sehirNumara == null &&
-                        ispanyaSehirIsimleri.contains(s.sehirIsim.trim()),
-                  )
-                  .toList();
-            }
-
             return ListView.builder(
               itemCount: sehirler.length,
               itemBuilder: (context, index) {

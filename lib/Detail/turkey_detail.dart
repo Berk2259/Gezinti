@@ -27,21 +27,10 @@ class TurkeyDetail extends StatelessWidget {
         child: FutureBuilder<List<UlkeSehirModel>>(
           future: DataService().loadJsonData(),
           builder: (context, snapshot) {
-            if (snapshot.connectionState == ConnectionState.waiting) {
-              return Center(child: CircularProgressIndicator(color: ColorWidget.blue900));
-            }
-            if (snapshot.hasError) {
-              return Center(child: Text('Veri yüklenemedi', style: TextStyle(color: ColorWidget.white)));
-            }
             final List<UlkeSehirModel> tumSehirler = snapshot.data ?? [];
             // 1) Önce ülke kodu ile filtrele
             List<UlkeSehirModel> sehirler =
                 tumSehirler.where((s) => s.ulkeKodu == 'TR').toList();
-            // 2) JSON'da ülkeKodu eksikse plaka fallback'i kullan
-            if (sehirler.isEmpty) {
-              sehirler = tumSehirler.where((s) => s.sehirNumara != null).toList();
-            }
-
             return ListView.builder(
               itemCount: sehirler.length,
               itemBuilder: (context, index) {

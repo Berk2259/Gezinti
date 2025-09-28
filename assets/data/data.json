@@ -9,7 +9,7 @@
           "mekanIsim": "Taşköprü",
           "mekanAciklama": "Roma döneminden kalma tarihi köprü, Seyhan Nehri üzerinde bulunuyor.",
           "mapsUrl": "https://maps.app.goo.gl/UudKQQ3oQV7v2Km28",
-          "tags": ["tarihiYer"],
+          "tagsColor": "0xFFF44336",
           "mekanDetayAciklama": "Adana’nın simgelerinden biri olan Taşköprü, Seyhan Nehri üzerinde yer alır ve dünyanın hâlen kullanılan en eski köprülerinden biridir.",
           "mekanTarihce": [
             "• Roma İmparatoru Hadrianus (M.S. 117–138) döneminde inşa edildiği kabul edilir.",
