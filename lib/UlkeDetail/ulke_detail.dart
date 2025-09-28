@@ -1,7 +1,6 @@
 export 'france_detail.dart';
 export 'turkey_detail.dart';
 export 'spain_detail.dart';
-export 'sehir_detail.dart';
 export 'italy_detail.dart';
 export 'germany_detail.dart';
 export 'poland_detail.dart';
@@ -22,4 +21,4 @@ export 'slovakia_detail.dart';
 export 'albania_detail.dart';
 export 'croatia_detail.dart';
 export 'north_macedonia_detail.dart';
-export 'sehir_mekan_detail.dart';
+

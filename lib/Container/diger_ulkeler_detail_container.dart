@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:gezinti/Model/model.dart';
-import 'package:gezinti/Widget/color_widget.dart';
+import 'package:gezinti/Widget/widget.dart';
 
 //Burada Türkiye dışındaki diğer ülkelerin il container yapıları tanımlanıyor
 class DigerUlkelerDetailContainer extends StatelessWidget {

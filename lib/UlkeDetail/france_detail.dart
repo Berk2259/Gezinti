@@ -1,19 +1,19 @@
 import 'package:flutter/material.dart';
-import 'package:gezinti/Detail/sehir_detail.dart';
+import 'package:gezinti/GenelDetail/genel_detail.dart';
 import 'package:gezinti/Model/model.dart';
-import 'package:gezinti/Container/diger_ulkeler_detail_container.dart';
-import 'package:gezinti/Service/service.dart';
+import 'package:gezinti/Container/container.dart';
+import 'package:gezinti/Service/data_service.dart';
 import 'package:gezinti/Widget/widget.dart';
 
-//ispanyadaki şehirler burada bulunacak
-class SpainDetail extends StatelessWidget {
-  const SpainDetail({super.key});
+//Fransadaki şehirler burada bulunuyor
+class FranceDetail extends StatelessWidget {
+  const FranceDetail({super.key});
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.blue.shade900,
-      appBar: AppbarWidget(text: 'İspanya'),
+      backgroundColor: ColorWidget.blue900,
+      appBar: AppbarWidget(text: 'Fransa'),
       body: Container(
         width: double.infinity,
         height: MediaQuery.of(context).size.height,
@@ -27,9 +27,24 @@ class SpainDetail extends StatelessWidget {
         child: FutureBuilder<List<UlkeSehirModel>>(
           future: DataService().loadJsonData(),
           builder: (context, snapshot) {
+            if (snapshot.connectionState == ConnectionState.waiting) {
+              return Center(
+                child: CircularProgressIndicator(color: ColorWidget.blue900),
+              );
+            }
+            if (snapshot.hasError) {
+              return Center(
+                child: Text(
+                  'Veri yüklenemedi',
+                  style: TextStyle(color: ColorWidget.white),
+                ),
+              );
+            }
             final List<UlkeSehirModel> tumSehirler = snapshot.data ?? [];
+            // 1) Önce ulkeKodu ile filtrele (JSON'da varsa en basit ve sağlam yol)
             List<UlkeSehirModel> sehirler =
-                tumSehirler.where((s) => s.ulkeKodu == 'ES').toList();
+                tumSehirler.where((s) => s.ulkeKodu == 'FR').toList();
+            // 2) Eğer JSON'da ulkeKodu yoksa, eski fallback: isim bazlı ve plaka null
             return ListView.builder(
               itemCount: sehirler.length,
               itemBuilder: (context, index) {

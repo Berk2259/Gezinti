@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:gezinti/Detail/detail.dart';
+import 'package:gezinti/GenelDetail/genel_detail.dart';
 import 'package:gezinti/Model/model.dart';
 import 'package:gezinti/Widget/widget.dart';
 import 'package:gezinti/Container/container.dart';

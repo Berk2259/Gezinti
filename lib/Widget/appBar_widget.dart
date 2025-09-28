@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:gezinti/Widget/color_widget.dart';
 
 //Kendi özelleştirdiğim appBar burada bulunuyor.
