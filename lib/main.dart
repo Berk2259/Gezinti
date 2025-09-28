@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:gezinti/Screen/screen.dart';
 
-
 void main() {
   runApp(const MyApp());
 }

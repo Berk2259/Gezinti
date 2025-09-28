@@ -23,4 +23,33 @@ class MekanModel {
     this.mekanOnemi,
     this.mekanFotolar,
   });
+  
+  // JSON'dan MekanModel'e dönüştürme
+  factory MekanModel.fromJson(Map<String, dynamic> json) {
+    return MekanModel(
+      mekanIsim: json['mekanIsim'],
+      mekanAciklama: json['mekanAciklama'],
+      mapsUrl: json['mapsUrl'],
+      tags: Icon(
+        Icons.place,
+      ), // json'dan direkt Icon alamayız, default verebiliriz
+      mekanDetayAciklama: json['mekanDetayAciklama'],
+      mekanTarihce:
+          json['mekanTarihce'] != null
+              ? List<String>.from(json['mekanTarihce'])
+              : [],
+      mekanGunumuzde:
+          json['mekanGunumuzde'] != null
+              ? List<String>.from(json['mekanGunumuzde'])
+              : [],
+      mekanOnemi:
+          json['mekanOnemi'] != null
+              ? List<String>.from(json['mekanOnemi'])
+              : [],
+      mekanFotolar:
+          json['mekanFotolar'] != null
+              ? List<String>.from(json['mekanFotolar'])
+              : [],
+    );
+  }
 }

@@ -3,6 +3,7 @@ import 'package:gezinti/Detail/detail.dart';
 import 'package:gezinti/Model/model.dart';
 import 'package:gezinti/Widget/widget.dart';
 import 'package:gezinti/Container/container.dart';
+import 'package:gezinti/Service/data_service.dart';
 
 //Türkiyedeki iller burada bulunuyor
 class TurkeyDetail extends StatelessWidget {
@@ -23,31 +24,42 @@ class TurkeyDetail extends StatelessWidget {
           ),
           color: ColorWidget.blue200,
         ),
-        child: Column(
-          children: [
-            TurkeyDetailContainer(
-              ozellikSehir: adana,
-              onPressedButton: () {
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(
-                    builder: (context) => SehirDetail(sehir: adana),
-                  ),
+        child: FutureBuilder<List<UlkeSehirModel>>(
+          future: DataService().loadJsonData(),
+          builder: (context, snapshot) {
+            if (snapshot.connectionState == ConnectionState.waiting) {
+              return Center(child: CircularProgressIndicator(color: ColorWidget.blue900));
+            }
+            if (snapshot.hasError) {
+              return Center(child: Text('Veri yüklenemedi', style: TextStyle(color: ColorWidget.white)));
+            }
+            final List<UlkeSehirModel> tumSehirler = snapshot.data ?? [];
+            // 1) Önce ülke kodu ile filtrele
+            List<UlkeSehirModel> sehirler =
+                tumSehirler.where((s) => s.ulkeKodu == 'TR').toList();
+            // 2) JSON'da ülkeKodu eksikse plaka fallback'i kullan
+            if (sehirler.isEmpty) {
+              sehirler = tumSehirler.where((s) => s.sehirNumara != null).toList();
+            }
+
+            return ListView.builder(
+              itemCount: sehirler.length,
+              itemBuilder: (context, index) {
+                final sehir = sehirler[index];
+                return TurkeyDetailContainer(
+                  ozellikSehir: sehir,
+                  onPressedButton: () {
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder: (context) => SehirDetail(sehir: sehir),
+                      ),
+                    );
+                  },
                 );
               },
-            ),
-            TurkeyDetailContainer(
-              ozellikSehir: adiyaman,
-              onPressedButton: () {
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(
-                    builder: (context) => SehirDetail(sehir: adiyaman),
-                  ),
-                );
-              },
-            ),
-          ],
+            );
+          },
         ),
       ),
     );
