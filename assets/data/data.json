@@ -385,6 +385,46 @@
       ]
     },
     {
+      "ulkeKodu": "TR",
+      "sehirNumara": "03",
+      "sehirIsim": "Afyon",
+      "mekanlar": [
+        {
+          "mekanIsim": "Taşköprü",
+          "mekanAciklama": "Roma döneminden kalma tarihi köprü, Seyhan Nehri üzerinde bulunuyor.",
+          "mapsUrl": null,
+          "tags": ["tarihiYer"],
+          "mekanDetayAciklama": null,
+          "mekanTarihce": [],
+          "mekanGunumuzde": [],
+          "mekanOnemi": [],
+          "mekanFotolar": []
+        },
+        {
+          "mekanIsim": "Adana Merkez Park",
+          "mekanAciklama": "Şehrin merkezinde büyük bir park, yürüyüş ve dinlenme için ideal.",
+          "mapsUrl": null,
+          "tags": ["tarihiYer"],
+          "mekanDetayAciklama": null,
+          "mekanTarihce": [],
+          "mekanGunumuzde": [],
+          "mekanOnemi": [],
+          "mekanFotolar": []
+        },
+        {
+          "mekanIsim": "Sabancı Merkez Camii",
+          "mekanAciklama": "Adana'nın simgesi olan camii, modern ve klasik mimarinin birleşimi.",
+          "mapsUrl": null,
+          "tags": ["tarihiYer"],
+          "mekanDetayAciklama": null,
+          "mekanTarihce": [],
+          "mekanGunumuzde": [],
+          "mekanOnemi": [],
+          "mekanFotolar": []
+        }
+      ]
+    },
+    {
       "ulkeKodu": "FR",
       "sehirIsim": "Paris",
       "sehirNumara": null,
