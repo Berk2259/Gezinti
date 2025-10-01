@@ -123,7 +123,7 @@ class SehirMekanDetail extends StatelessWidget {
                           style: TextStyle(fontSize: 16),
                         ),
                       ),
-                      
+
                       // Fotoğraf kısmı burada
                       GridView.builder(
                         //liste uzunluğuna göre hücreleri üretir
@@ -158,6 +158,21 @@ class SehirMekanDetail extends StatelessWidget {
                                           fit:
                                               BoxFit
                                                   .contain, //resmi orantılı şekilde büyütüyor
+                                          errorBuilder: (
+                                            context,
+                                            error,
+                                            stackTrace,
+                                          ) {
+                                            return Container(
+                                              color: Colors.grey.shade200,
+                                              alignment: Alignment.center,
+                                              child: Text(
+                                                'İnternet Yok',
+                                                style: TextStyle(fontSize: 16),
+                                                textAlign: TextAlign.center,
+                                              ),
+                                            );
+                                          },
                                         ),
                                       ),
                                     ),
@@ -171,7 +186,21 @@ class SehirMekanDetail extends StatelessWidget {
                               ),
                               child: ClipRRect(
                                 borderRadius: BorderRadius.circular(12),
-                                child: Image.network(foto, fit: BoxFit.cover),
+                                child: Image.network(
+                                  foto,
+                                  fit: BoxFit.cover,
+                                  errorBuilder: (context, error, stackTrace) {
+                                    return Container(
+                                      color: Colors.grey.shade200,
+                                      alignment: Alignment.center,
+                                      child: Text(
+                                        'İnternet Yok',
+                                        style: TextStyle(fontSize: 16),
+                                        textAlign: TextAlign.center,
+                                      ),
+                                    );
+                                  },
+                                ),
                               ),
                             ),
                           );
