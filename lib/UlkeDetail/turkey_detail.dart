@@ -3,7 +3,7 @@ import 'package:gezinti/GenelDetail/genel_detail.dart';
 import 'package:gezinti/Model/model.dart';
 import 'package:gezinti/Widget/widget.dart';
 import 'package:gezinti/Container/container.dart';
-import 'package:gezinti/Service/data_service.dart';
+import 'package:gezinti/Service/service.dart';
 
 //Türkiyedeki iller burada bulunuyor
 class TurkeyDetail extends StatelessWidget {

@@ -40,9 +40,23 @@ class ColorWidget {
   static const Color red200 = Color(0xFFEF9A9A);
   static const Color red300 = Color(0xFFE57373);
   static const Color red400 = Color(0xFFEF5350);
-  static const Color red500 = Color(0xFFF44336);
+  static const Color red500 = Color(0xFFF44336); //Deafult
   static const Color red600 = Color(0xFFE53935);
   static const Color red700 = Color(0xFFD32F2F);
   static const Color red800 = Color(0xFFC62828);
   static const Color red900 = Color(0xFFB71C1C);
+
+  //==============Grey Section==============
+  static const Color grey50 = Color(0xFFFAFAFA);
+  static const Color grey100 = Color(0xFFF5F5F5);
+  static const Color grey200 = Color(0xFFEEEEEE);
+  static const Color grey300 = Color(0xFFE0E0E0);
+  static const Color grey350 = Color(0xFFD6D6D6);
+  static const Color grey400 = Color(0xFFBDBDBD);
+  static const Color grey500 = Color(0xFF9E9E9E); //Deafult
+  static const Color grey600 = Color(0xFF757575);
+  static const Color grey700 = Color(0xFF616161);
+  static const Color grey800 = Color(0xFF424242);
+  static const Color grey850 = Color(0xFF303030);
+  static const Color grey900 = Color(0xFF212121);
 }

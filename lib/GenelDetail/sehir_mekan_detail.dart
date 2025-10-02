@@ -1,23 +1,12 @@
 import 'package:flutter/material.dart';
-import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+import 'package:gezinti/Container/container.dart';
 import 'package:gezinti/Model/model.dart';
 import 'package:gezinti/Widget/widget.dart';
-import 'package:url_launcher/url_launcher.dart';
 
 //Her Şehirdeki Her bir mekan için ilgili kısım burada bulunur
 class SehirMekanDetail extends StatelessWidget {
   final MekanModel mekan;
   const SehirMekanDetail({super.key, required this.mekan});
-
-  Future<void> _openGoogleMaps(String mapsUrl) async {
-    final Uri googleUrl = Uri.parse(mapsUrl);
-
-    if (await canLaunchUrl(googleUrl)) {
-      await launchUrl(googleUrl, mode: LaunchMode.externalApplication);
-    } else {
-      debugPrint('URL açılamıyor: $googleUrl');
-    }
-  }
 
   @override
   Widget build(BuildContext context) {
@@ -54,21 +43,8 @@ class SehirMekanDetail extends StatelessWidget {
                           style: TextStyle(fontSize: 16),
                         ),
                       ),
-                      Padding(
-                        padding: const EdgeInsets.only(left: 16.0),
-                        child: Row(
-                          children: [
-                            Icon(FontAwesomeIcons.landmarkDome),
-                            SizedBox(width: 16.0),
-                            Text(
-                              'Tarihçe',
-                              style: TextStyle(
-                                fontSize: 24,
-                                fontWeight: FontWeight.bold,
-                              ),
-                            ),
-                          ],
-                        ),
+                      SehirDetailBaslikWidget(
+                        baslik: SehirDetailBaslikModel(DetailBaslik: 'Tarihçe'),
                       ),
                       Padding(
                         padding: const EdgeInsets.all(16.0),
@@ -77,20 +53,9 @@ class SehirMekanDetail extends StatelessWidget {
                           style: TextStyle(fontSize: 16),
                         ),
                       ),
-                      Padding(
-                        padding: const EdgeInsets.only(left: 16.0),
-                        child: Row(
-                          children: [
-                            Icon(FontAwesomeIcons.city),
-                            SizedBox(width: 16.0),
-                            Text(
-                              'Günümüzde',
-                              style: TextStyle(
-                                fontSize: 24,
-                                fontWeight: FontWeight.bold,
-                              ),
-                            ),
-                          ],
+                      SehirDetailBaslikWidget(
+                        baslik: SehirDetailBaslikModel(
+                          DetailBaslik: 'Günümüzde',
                         ),
                       ),
                       Padding(
@@ -100,21 +65,8 @@ class SehirMekanDetail extends StatelessWidget {
                           style: TextStyle(fontSize: 16),
                         ),
                       ),
-                      Padding(
-                        padding: const EdgeInsets.only(left: 16.0),
-                        child: Row(
-                          children: [
-                            Icon(FontAwesomeIcons.earthEurope),
-                            SizedBox(width: 16.0),
-                            Text(
-                              'Önemi',
-                              style: TextStyle(
-                                fontSize: 24,
-                                fontWeight: FontWeight.bold,
-                              ),
-                            ),
-                          ],
-                        ),
+                      SehirDetailBaslikWidget(
+                        baslik: SehirDetailBaslikModel(DetailBaslik: 'Önemi'),
                       ),
                       Padding(
                         padding: const EdgeInsets.all(16.0),
@@ -163,15 +115,7 @@ class SehirMekanDetail extends StatelessWidget {
                                             error,
                                             stackTrace,
                                           ) {
-                                            return Container(
-                                              color: Colors.grey.shade200,
-                                              alignment: Alignment.center,
-                                              child: Text(
-                                                'İnternet Yok',
-                                                style: TextStyle(fontSize: 16),
-                                                textAlign: TextAlign.center,
-                                              ),
-                                            );
+                                            return ErrorTextContainer();
                                           },
                                         ),
                                       ),
@@ -190,15 +134,7 @@ class SehirMekanDetail extends StatelessWidget {
                                   foto,
                                   fit: BoxFit.cover,
                                   errorBuilder: (context, error, stackTrace) {
-                                    return Container(
-                                      color: Colors.grey.shade200,
-                                      alignment: Alignment.center,
-                                      child: Text(
-                                        'İnternet Yok',
-                                        style: TextStyle(fontSize: 16),
-                                        textAlign: TextAlign.center,
-                                      ),
-                                    );
+                                    return ErrorTextContainer();
                                   },
                                 ),
                               ),
@@ -211,32 +147,8 @@ class SehirMekanDetail extends StatelessWidget {
                 ),
               ),
             ),
-
-            //Konum Butonu burada bulunur
-            Padding(
-              padding: const EdgeInsets.only(
-                left: 32.0,
-                right: 32.0,
-                bottom: 32.0,
-              ),
-              child: ElevatedButton.icon(
-                onPressed:
-                    (mekan.mapsUrl != null && mekan.mapsUrl!.isNotEmpty)
-                        ? () => _openGoogleMaps(mekan.mapsUrl!)
-                        : null,
-                label: Text(
-                  'Konum',
-                  style: TextStyle(color: ColorWidget.white, fontSize: 20),
-                ),
-                icon: Icon(FontAwesomeIcons.locationDot),
-                style: ElevatedButton.styleFrom(
-                  backgroundColor: ColorWidget.blue900,
-                  iconSize: 20,
-                  iconColor: ColorWidget.white,
-                  minimumSize: Size(double.infinity, 50),
-                ),
-              ),
-            ),
+            //Konum Buton Kısmı Burada
+            KonumButtonWidget(mekan: mekan),
           ],
         ),
       ),

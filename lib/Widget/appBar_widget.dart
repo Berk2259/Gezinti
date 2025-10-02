@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:gezinti/Widget/color_widget.dart';
+import 'package:gezinti/Widget/widget.dart';
 
 //Kendi özelleştirdiğim appBar burada bulunuyor.
 class AppbarWidget extends StatelessWidget implements PreferredSizeWidget {

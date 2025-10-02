@@ -2,3 +2,6 @@ export 'appBar_widget.dart';
 export 'color_widget.dart';
 export 'tag_widget.dart';
 export 'alert_dialog_widget.dart';
+export 'konum_button_widget.dart';
+export 'detay_button_widget.dart';
+export 'sehir_detail_baslik_widget.dart';
