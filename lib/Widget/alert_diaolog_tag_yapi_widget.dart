@@ -20,7 +20,7 @@ class AlertDiaologTagYapiWidget extends StatelessWidget {
       children: [
         Row(
           children: [
-            Icon(FontAwesomeIcons.tag, color: ColorWidget.red500),
+            Icon(FontAwesomeIcons.tag, color: tagColor),
             Padding(
               padding: const EdgeInsets.only(left: 16.0),
               child: Text(tagText, style: TextStyle(fontSize: 18)),
