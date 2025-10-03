@@ -44,7 +44,9 @@ class SehirMekanDetail extends StatelessWidget {
                         ),
                       ),
                       SehirDetailBaslikWidget(
-                        baslik: SehirDetailBaslikModel(DetailBaslik: 'Tarihçe'),
+                        baslik: SehirDetailBaslikModel(
+                          DetailBaslik: 'Kısadan Bilgi',
+                        ),
                       ),
                       Padding(
                         padding: const EdgeInsets.all(16.0),
@@ -53,29 +55,6 @@ class SehirMekanDetail extends StatelessWidget {
                           style: TextStyle(fontSize: 16),
                         ),
                       ),
-                      SehirDetailBaslikWidget(
-                        baslik: SehirDetailBaslikModel(
-                          DetailBaslik: 'Günümüzde',
-                        ),
-                      ),
-                      Padding(
-                        padding: const EdgeInsets.all(16.0),
-                        child: Text(
-                          (mekan.mekanGunumuzde ?? []).join('\n'),
-                          style: TextStyle(fontSize: 16),
-                        ),
-                      ),
-                      SehirDetailBaslikWidget(
-                        baslik: SehirDetailBaslikModel(DetailBaslik: 'Önemi'),
-                      ),
-                      Padding(
-                        padding: const EdgeInsets.all(16.0),
-                        child: Text(
-                          (mekan.mekanOnemi ?? []).join('\n'),
-                          style: TextStyle(fontSize: 16),
-                        ),
-                      ),
-
                       // Fotoğraf kısmı burada
                       GridView.builder(
                         //liste uzunluğuna göre hücreleri üretir
