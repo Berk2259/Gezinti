@@ -7,25 +7,15 @@
       "mekanlar": [
         {
           "mekanIsim": "Taşköprü",
-          "mekanAciklama": "Roma döneminden kalma tarihi köprü, Seyhan Nehri üzerinde bulunuyor.",
+          "mekanAciklama": "Adana’daki Taş Köprü, Roma döneminde inşa edilmiş olup, günümüzde sadece yayalara açık olan dünyanın en eski köprülerinden biridir.",
           "mapsUrl": "https://maps.app.goo.gl/UudKQQ3oQV7v2Km28",
           "tagsColor": "0xFFF44336",
-          "mekanDetayAciklama": "Adana’nın simgelerinden biri olan Taşköprü, Seyhan Nehri üzerinde yer alır ve dünyanın hâlen kullanılan en eski köprülerinden biridir.",
           "mekanTarihce": [
-            "• Roma İmparatoru Hadrianus (M.S. 117–138) döneminde inşa edildiği kabul edilir.",
-            "• 6.yüzyılda Bizans İmparatoru I. Justinianus döneminde kapsamlı bir onarım gördü.",
-            "• Orta Çağ’dan Osmanlı dönemine kadar çeşitli bakım ve onarımlar yapılmıştır.",
-            "• Osmanlı döneminde de yoğun olarak kullanıldı ve Adana’nın şehir içi ulaşımında stratejik bir rol oynadı."
-          ],
-          "mekanGunumuzde": [
-            "• Taşköprü, 2006–2007 restorasyon çalışmaları sonrası motorlu araç trafiğine kapatıldı.",
-            "• Günümüzde yalnızca yayalara ve bisikletlilere açıktır.",
-            "• Çevresinde modern Adana ile tarih iç içe geçmiştir; özellikle Merkez Park ve Sabancı Merkez Camii ile birlikte şehrin en önemli sembollerindendir."
-          ],
-          "mekanOnemi": [
-            "• UNESCO Dünya Mirası Geçici Listesi’ne aday gösterilmiştir.",
-            "• Roma döneminden günümüze kadar kesintisiz kullanılan ender eserlerden biridir.",
-            "• Adana’nın kültürel mirasının en önemli parçalarından biridir."
+            "• M.S. 2. yüzyılda Roma İmparatoru Hadrianus döneminde yapılmıştır.",
+            "• Zaman içinde Bizans ve Osmanlı dönemlerinde onarımlar görmüştür.",
+            "• İlk halinde 21 kemerli olan köprüden bugün 14 kemer ayaktadır.",
+            "• 2007’den bu yana araç trafiğine kapalıdır, sadece yayalar tarafından kullanılmaktadır.",
+            "• Adana’nın en önemli simgesi ve dünyada hâlen kullanılan en eski köprülerden biridir."
           ],
           "mekanFotolar": [
             "https://images.pexels.com/photos/18239693/pexels-photo-18239693.jpeg",
@@ -34,26 +24,14 @@
         },
         {
           "mekanIsim": "Büyük Saat Kulesi",
-          "mekanAciklama": "Osmanlı döneminden kalma, Türkiye’nin en yüksek saat kulesi.",
+          "mekanAciklama": "Adana’daki Büyük Saat Kulesi, 1882 yılında inşa edilmiş olup Türkiye’nin en yüksek saat kulesidir.",
           "mapsUrl": "https://maps.app.goo.gl/qdMx722BmUACN9Hj7",
-          "tags": ["tarihiYer"],
-          "mekanDetayAciklama": "Adana’nın en önemli simgelerinden biri olan Büyük Saat Kulesi, Türkiye’nin en uzun saat kulesidir.",
+          "tagsColor": "0xFFF44336",
           "mekanTarihce": [
-            "• Kule, Adana Valisi Abidin Paşa döneminde (1881) inşa edilmeye başlandı.",
-            "• İnşaatı, Abidin Paşa’nın görev süresi bitince yeni vali Ziya Paşa tarafından tamamlandı.",
-            "• 1882 yılında kullanıma açıldı.",
-            "• O dönem Osmanlı’da saat kuleleri, modernleşmenin ve şehir düzeninin sembolüydü."
-          ],
-          "mekanGunumuzde": [
-            "• Büyük Saat Kulesi, Adana Ulu Cami ve Kazancılar Çarşısı yakınında yer alır.",
-            "• Çevresinde geleneksel çarşı dokusu hâlen korunmaktadır.",
-            "• Hâlâ çalışan saati ile şehrin merkezi noktalarından biridir.",
-            "• Adana’ya gelen turistlerin mutlaka uğradığı yerler arasındadır."
-          ],
-          "mekanOnemi": [
-            "• Türkiye’deki saat kuleleri arasında en uzun olanıdır.",
-            "• Osmanlı’nın şehircilik anlayışını ve modernleşme sürecini yansıtır.",
-            "• Adana’nın tarihî ve kültürel kimliğinin ayrılmaz bir parçasıdır."
+            "• 1882 yılında Vali Abidin Paşa tarafından yaptırılmıştır.",
+            "• 32 metre yüksekliğiyle Türkiye’nin en yüksek saat kulesi olma özelliğini taşır.",
+            "• Osmanlı döneminde halkın zamanı öğrenmesi ve şehir düzeni için yapılmıştır.",
+            "• Günümüzde hâlen çalışan saatiyle Adana’nın sembol yapılarından biridir ve şehrin merkezinde önemli bir buluşma noktasıdır."
           ],
           "mekanFotolar": [
             "https://images.pexels.com/photos/32770219/pexels-photo-32770219.jpeg",
@@ -62,255 +40,34 @@
             "https://images.pexels.com/photos/18924004/pexels-photo-18924004.jpeg"
           ]
         },
+
         {
           "mekanIsim": "Adana Ulu Camii",
-          "mekanAciklama": "16. yüzyılda yapılmış, Selçuklu ve Memlük mimarisi etkileri taşıyan cami.",
-          "mapsUrl": "https://maps.app.goo.gl/M3A5cCAkueK1hoWf7",
-          "tags": ["tarihiYer"],
-          "mekanDetayAciklama": "Adana’nın en görkemli ve tarihî yapılarından biri olan Ulu Cami, şehrin dini ve kültürel kimliğinin en önemli sembollerindendir.",
+          "mekanAciklama": "Adana’daki Ulu Cami, 16. yüzyılda Ramazanoğulları tarafından inşa edilmiş olup şehrin en önemli tarihi ibadet yapılarından biridir.",
+          "mapsUrl":  "https://maps.app.goo.gl/M3A5cCAkueK1hoWf7",
+          "tagsColor": "0xFFF44336",
           "mekanTarihce": [
-            "• Cami, Ramazanoğulları Beyliği döneminde inşa edilmiştir.",
-            "• Yapımına 1499 yılında Ramazanoğlu Halil Bey tarafından başlanmış, 1541’de oğlu Piri Mehmet Paşa tarafından tamamlanmıştır.",
-            "• Hem Ramazanoğulları’nın gücünü hem de dönemin mimari anlayışını yansıtır.",
-            "• Osmanlı hâkimiyetinden sonra da cami korunmuş ve kullanılmaya devam etmiştir."
-          ],
-          "mekanGunumuzde": [
-            "• Adana Ulu Cami hâlen ibadete açık olup, şehrin en önemli merkez camilerinden biridir.",
-            "• Özellikle Ramazan aylarında ve bayramlarda en yoğun cemaatin toplandığı camidir.",
-            "• Adana’ya gelen turistlerin tarihî gezi rotalarında mutlaka yer alır."
-          ],
-          "mekanOnemi": [
-            "• Adana’daki en büyük ve en eski camilerden biridir.",
-            "• Anadolu Türk-İslam mimarisinin zengin taş işçiliğini ve geçiş dönemindeki mimari etkileri yansıtır.",
-            "• Ramazanoğulları Beyliği’nin siyasi ve kültürel mirasının günümüze ulaşan en görkemli yapısıdır."
+            "• 1509 yılında Ramazanoğlu Halil Bey tarafından yapımına başlanmış, 1541’de oğlu Piri Mehmet Paşa tarafından tamamlanmıştır.",
+            "• Mimarisinde Selçuklu, Memlük ve Osmanlı üslubunun izleri görülür.",
+            "• Yüzyıllardır Adana’nın en büyük ibadet mekânı olma özelliğini taşır.",
+            "• Günümüzde de aktif olarak kullanılan ve şehrin dini-kültürel yaşamında önemli bir yer tutan tarihi bir yapıdır."
           ],
           "mekanFotolar": [
             "https://images.pexels.com/photos/14319044/pexels-photo-14319044.jpeg",
             "https://images.pexels.com/photos/27870446/pexels-photo-27870446.jpeg"
           ]
         },
+
         {
-          "mekanIsim": "Yağ Camii",
-          "mekanAciklama": "Eski bir kiliseden camiye çevrilmiş tarihi yapı.",
-          "mapsUrl": "https://maps.app.goo.gl/k1SuwapRBDzoMxnE9",
-          "tags": ["tarihiYer"],
-          "mekanDetayAciklama": "Adana’nın tarihî camileri arasında önemli bir yeri olan Yağ Camii, özellikle taş işçiliği ve Osmanlı dönemi öncesi mimarisiyle dikkat çeker.",
+          "mekanIsim": "Sabancı Merkez Cami",
+          "mekanAciklama": "Adana’daki Sabancı Merkez Camii, 1998 yılında açılmış olup Türkiye’nin en büyük camilerinden biridir.",
+          "mapsUrl":  "https://maps.app.goo.gl/149C4DhTuXWvJr9q7",
+          "tagsColor": "0xFFF44336",
           "mekanTarihce": [
-            "• Yapım Tarihi: 1513",
-            "• Kurucusu: Ramazanoğlu Halil Bey’in ailesi tarafından yaptırıldığı düşünülmektedir.",
-            "• Yapı, Osmanlı öncesi Ramazanoğulları Beyliği dönemine ait önemli bir eser olarak kabul edilir.",
-            "• Adını, caminin inşasında kullanılan yağ (zeytinyağı ve hayvansal yağ) harcı yönteminden almıştır. Bu teknik taşların bir araya getirilmesinde dayanıklılık sağlamıştır."
-          ],
-          "mekanGunumuzde": [
-            "• Yağ Camii hâlen ibadete açıktır ve Adana’nın merkezinde yer alır.",
-            "• Çevresindeki yapılarla birlikte şehrin tarihî dokusunu koruyan önemli bir yapı grubunun parçasıdır.",
-            "• Ziyaretçiler için hem tarihî hem mimari açıdan ilgi çekici bir durak olmuştur."
-          ],
-          "mekanOnemi": [
-            "• Adana’daki en eski taş camilerden biri olarak kabul edilir.",
-            "• Ramazanoğulları dönemi mimarisinin ayakta kalan nadir örneklerindendir.",
-            "• Taş işçiliği ve yağ harcı tekniği sayesinde günümüze sağlam bir şekilde ulaşmıştır."
-          ],
-          "mekanFotolar": []
-        },
-        {
-          "mekanIsim": "Adana Arkeoloji Müzesi",
-          "mekanAciklama": "Türkiye’nin en eski müzelerinden biri.",
-          "mapsUrl": "https://maps.app.goo.gl/5SSDv21FfnVij7L86",
-          "tags": ["tarihiYer"],
-          "mekanDetayAciklama": "Adana Arkeoloji Müzesi, şehir ve çevresindeki tarihî eserlerin korunması ve sergilenmesi açısından önemli bir kültürel mekândır.",
-          "mekanTarihce": [
-            "• Müzede sergilenen eserler Prehistorik Dönem’den Osmanlı’ya kadar uzanmaktadır.",
-            "• Adana ve çevresinde yapılan kazılardan elde edilen buluntuların korunması amacıyla kurulmuştur.",
-            "• İlk olarak 1919’da Adana’da müze işlevi görmeye başlamış, zaman içinde modern bir müze binasına taşınmıştır."
-          ],
-          "mekanGunumuzde": [
-            "• Müze, Adana şehir merkezine yakın konumda yer alır.",
-            "• Hafta içi ve hafta sonu ziyaretçilere açıktır.",
-            "• Özellikle tarih ve arkeoloji meraklıları için çok zengin bir koleksiyon sunar."
-          ],
-          "mekanOnemi": [
-            "• Adana ve çevresinin tarih öncesi ve antik dönem mirasını koruyan en önemli merkezdir.",
-            "• Arkeolojik kazılardan çıkan eserlerin eğitim ve turizm açısından değerlendirilmesine olanak sağlar.",
-            "• Bölgenin kültürel kimliğini ve tarihî sürekliliğini gözler önüne serer."
-          ],
-          "mekanFotolar": []
-        },
-        {
-          "mekanIsim": "Atatürk Evi Müzesi",
-          "mekanAciklama": "Atatürk’ün Adana ziyaretlerinde kullandığı ev.",
-          "mapsUrl": "https://maps.app.goo.gl/ViEXJVyZYv8Tujmz8",
-          "tags": ["tarihiYer"],
-          "mekanDetayAciklama": "Adana Atatürk Evi, Mustafa Kemal Atatürk’ün Adana’ya yaptığı ziyaretler sırasında kaldığı ev olarak bilinir ve günümüzde müze olarak düzenlenmiştir.",
-          "mekanTarihce": [
-            "• Ev, 1923 yılında inşa edilmiştir ve Atatürk, 1923–1930 yılları arasında Adana ziyaretlerinde burada konaklamıştır.",
-            "• 1981 yılında, Atatürk’ün Adana’daki yaşamını ve dönemini yansıtmak amacıyla müze haline getirilmiştir.",
-            "• Müze, Atatürk’ün Adana’ya olan ilgisini ve Cumhuriyet’in ilk yıllarındaki şehir hayatını gözler önüne serer."
-          ],
-          "mekanGunumuzde": [
-            "• Müze, Adana merkezinde, Kurtuluş Caddesi üzerinde yer almaktadır.",
-            "• Hafta içi ve hafta sonu ziyaretçilere açıktır.",
-            "• Eğitim amaçlı geziler ve turist ziyaretleri için düzenli olarak ziyaretçi kabul edilir."
-          ],
-          "mekanOnemi": [
-            "• Atatürk’ün Adana’daki izlerini günümüze taşıyan önemli bir tarihî ve kültürel mekândır.",
-            "• Cumhuriyet dönemi Adana’sının sosyal ve kültürel yaşamına ışık tutar.",
-            "• Şehrin Atatürk’le bağlantılı tarihî miraslarından biridir."
-          ],
-          "mekanFotolar": []
-        },
-        {
-          "mekanIsim": "Seyhan Baraj Gölü",
-          "mekanAciklama": "Piknik, yürüyüş ve manzara için güzel bir alan.",
-          "mapsUrl": "https://maps.app.goo.gl/oT1TUs4z7wyd1goG6",
-          "tags": ["dogalYer"],
-          "mekanDetayAciklama": "Seyhan Barajı, Adana’nın hem enerji hem de turizm açısından önemli yapılarından biridir ve baraj gölü çevresindeki manzara şehrin doğal güzelliklerini gözler önüne serer.",
-          "mekanTarihce": [
-            "• İnşaat Yılı: 1956–1959",
-            "• Türkiye’nin ilk büyük baraj projelerinden biri olarak hayata geçirilmiştir.",
-            "• Başlangıçta elektrik üretimi, sulama ve taşkın kontrolü amacıyla inşa edilmiştir.",
-            "• Baraj, Adana ve çevresinde tarımsal verimliliği artırmış ve şehrin modernleşmesine katkı sağlamıştır."
-          ],
-          "mekanGunumuzde": [
-            "• Baraj gölü çevresi, Adana’nın en güzel doğa manzaralarından birini sunar.",
-            "• Özellikle gün batımı ve sabah saatlerinde fotoğraf tutkunları için ideal bir noktadır.",
-            "• Göl çevresi, yürüyüş, bisiklet ve piknik alanlarıyla halkın dinlenme ve sosyal aktivitelerine açıktır.",
-            "• Baraj ve göl, şehir içi yeşil alan ve rekreasyon imkânı sağlayan bir doğa ve kent içi buluşma noktasıdır."
-          ],
-          "mekanOnemi": [
-            "• Adana’nın enerji, tarım ve su yönetimi açısından kritik bir yapısıdır.",
-            "• Şehrin doğal ve yapay güzelliklerini birleştiren önemli bir turizm ve fotoğraf noktasıdır.",
-            "• Seyhan Nehri üzerinde inşa edilen bu baraj, Adana’nın ekonomik ve sosyal hayatına katkıda bulunmuştur."
-          ],
-          "mekanFotolar": [
-            "https://images.pexels.com/photos/13463679/pexels-photo-13463679.jpeg",
-            "https://images.pexels.com/photos/18374839/pexels-photo-18374839.jpeg"
-          ]
-        },
-        {
-          "mekanIsim": "Dilberler Parkı",
-          "mekanAciklama": "Seyhan Nehri kıyısında yürüyüş yapabileceğin romantik bir park",
-          "mapsUrl": "https://maps.app.goo.gl/oZYjocReCbvdPGD59",
-          "tags": ["dogalYer"],
-          "mekanDetayAciklama": "Adana’nın şehir içindeki en popüler yeşil alanlarından biri olan Dilberler Parkı, hem doğal güzelliği hem de sosyal yaşam alanları ile dikkat çeker. Parkın içinde yer alan sekisi (su kanalı/çayırımsı alanlar), ziyaretçilere dinlenme ve doğayla iç içe vakit geçirme imkânı sunar.",
-          "mekanTarihce": [
-            "• Park, Adana Büyükşehir Belediyesi tarafından şehir sakinleri için tasarlanmış ve düzenlenmiştir.",
-            "• Adana’nın yoğun şehir hayatına doğal bir nefes alanı kazandırmak amacıyla oluşturulmuştur.",
-            "• Park ve sekisi, özellikle 1980’lerden sonra modern şehir planlaması kapsamında halkın kullanımına açılmıştır."
-          ],
-          "mekanGunumuzde": [
-            "• Park, şehir merkezine yakın bir konumda olup hafta içi ve hafta sonu halkın kullanımına açıktır.",
-            "• Sekisi ve gölet çevresi, özellikle fotoğraf ve doğa tutkunları için popülerdir.",
-            "• Aileler, spor yapanlar ve piknikçilerin sıkça tercih ettiği bir alandır."
-          ],
-          "mekanOnemi": [
-            "• Adana’nın şehir içi yeşil alan ihtiyacını karşılayan önemli bir parkıdır.",
-            "• Sekisi ve yapay göletler sayesinde hem ekolojik dengeyi destekler hem de ziyaretçilere görsel ve fiziksel rahatlama sunar.",
-            "• Şehrin sosyal yaşamına ve turizmine katkıda bulunan önemli bir doğal mekândır."
-          ],
-          "mekanFotolar": [
-            "https://images.pexels.com/photos/14516788/pexels-photo-14516788.jpeg",
-            "https://images.pexels.com/photos/7624401/pexels-photo-7624401.jpeg"
-          ]
-        },
-        {
-          "mekanIsim": "Kapıkaya Kanyonu",
-          "mekanAciklama": "Doğa yürüyüşü ve fotoğraf için çok uygun.",
-          "mapsUrl": "https://maps.app.goo.gl/s2QCr87sRWVZ9aqn6",
-          "tags": ["dogalYer"],
-          "mekanDetayAciklama": "Adana’nın doğal güzelliklerinden biri olan Kapıkaya Kanyonu, özellikle doğa yürüyüşleri, fotoğrafçılık ve macera sporları için popüler bir destinasyondur.",
-          "mekanTarihce": [
-            "• Kapıkaya Kanyonu, Adana’nın Pozantı ilçesi sınırları içinde yer alır.",
-            "• Kanyon, Toros Dağları’nın eteklerinde oluşmuş olup, milyonlarca yıl süren doğal aşınma ve erozyon süreçleriyle bugünkü şeklini almıştır.",
-            "• Bölge, tarih boyunca yerleşim ve geçiş yolu olarak da kullanılmıştır."
-          ],
-          "mekanGunumuzde": [
-            "• Kanyon, doğa yürüyüşleri ve trekking için ideal bir rotadır.",
-            "• Fotoğrafçılar, özellikle kanyonun dik duvarları ve Toros manzarası nedeniyle sıkça ziyaret eder.",
-            "• Macera tutkunları için bazı bölümlerde vadi tırmanışı ve kaya tırmanışı imkânları vardır.",
-            "• Ziyaretçilere rehber eşliğinde güvenli yürüyüş rotaları sunulmaktadır."
-          ],
-          "mekanOnemi": [
-            "• Kapıkaya Kanyonu, Adana’nın ekoturizm ve doğa turizmi açısından en önemli noktalarından biridir.",
-            "• Bölgenin jeolojik ve biyolojik çeşitliliğini koruması, bilimsel araştırmalar için önemlidir.",
-            "• Hem yerli hem de yabancı turistler için doğa ile baş başa kalma ve fotoğrafçılık açısından eşsiz bir mekândır."
-          ],
-          "mekanFotolar": []
-        },
-        {
-          "mekanIsim": "Varda Köprüsü",
-          "mekanAciklama": "Alman Köprüsü olarak bilinen, muhteşem manzaralı tarihi tren köprüsü.",
-          "mapsUrl": "https://maps.app.goo.gl/8SfjKtQeUJHVYGvA8",
-          "tags": ["tarihiYer"],
-          "mekanDetayAciklama": "Adana’nın Hacıkırı Mahallesi’nde, Pozantı ilçesi yakınlarında yer alan Varda Köprüsü, Türkiye’nin en etkileyici demiryolu köprülerinden biridir ve mühendislik harikası olarak kabul edilir.",
-          "mekanTarihce": [
-            "• İnşaat Yılı: 1912–1916",
-            "• Köprü, Osmanlı döneminde Alman mühendisler tarafından inşa edilmiştir.",
-            "• Amacı, Konya–Adana–Aleppo demiryolu hattını Toros Dağları’ndan geçirmekti.",
-            "• 1.Dünya Savaşı sırasında stratejik öneme sahipti ve günümüzde halen kullanılmaktadır."
-          ],
-          "mekanGunumuzde": [
-            "• Köprü çevresi, doğa yürüyüşleri ve fotoğrafçılık için popülerdir.",
-            "• Adana ve Mersin’den günübirlik ziyaretçiler için ideal bir gezi noktasıdır.",
-            "• Köprü, demiryolu üzerinden hâlâ aktif kullanıma açıktır; bu nedenle üstüne çıkmak tehlikelidir, ancak altından ve çevresinden manzara izlenebilir.",
-            "• Film ve reklam çekimleri için sıkça tercih edilen bir mekândır (özellikle Hollywood ve Türk yapımlarında)."
-          ],
-          "mekanOnemi": [
-            "• Varda Köprüsü, Osmanlı dönemi mühendislik ve taş işçiliğinin en iyi örneklerinden biridir.",
-            "• Toros Dağları’nda demiryolu taşımacılığı için kritik bir yapı olmuştur.",
-            "• Turizm, tarih ve mühendislik meraklıları için Adana’nın simgesel yapılarından biri olarak öne çıkar."
-          ],
-          "mekanFotolar": [
-            "https://images.pexels.com/photos/14663459/pexels-photo-14663459.jpeg",
-            "https://images.pexels.com/photos/29505213/pexels-photo-29505213.jpeg"
-          ]
-        },
-        {
-          "mekanIsim": "Adana Merkez Park",
-          "mekanAciklama": "Türkiye’nin en büyük şehir parklarından biri.",
-          "mapsUrl": "https://maps.app.goo.gl/cyUZSNHE58xpDdUS9",
-          "tags": ["dogalYer"],
-          "mekanDetayAciklama": "Adana’nın en büyük ve en popüler şehir parklarından biri olan Merkez Park, şehir merkezinde yer alır ve hem doğal hem sosyal yaşam alanı olarak halkın yoğun ilgisini çe",
-          "mekanTarihce": [
-            "• Park, 2000’li yıllarda Adana Büyükşehir Belediyesi tarafından modern bir kent parkı olarak tasarlanıp hayata geçirilmiştir.",
-            "• Seyhan Nehri kıyısında, eski askeri alan ve boş arazilerin dönüştürülmesiyle oluşturulmuştur.",
-            "• Amaç, Adana halkına doğayla iç içe, dinlenme ve spor alanları sunmaktır."
-          ],
-          "mekanGunumuzde": [
-            "• Park, şehir merkezinde, Seyhan Nehri kenarında yer alır ve hafta içi/sonu halkın kullanımına açıktır.",
-            "• Aileler, spor yapanlar, yürüyüş ve koşu tutkunları için ideal bir mekândır.",
-            "• Fotoğrafçılar için göletler ve peyzaj düzenlemeleri ile görsel açıdan zengin bir alan sunar."
-          ],
-          "mekanOnemi": [
-            "• Merkez Park, Adana’nın şehir içi yeşil alan ihtiyacını karşılayan en önemli parkıdır.",
-            "• Hem rekreasyon hem de doğa ile baş başa kalma imkânı sunar.",
-            "• Şehrin sosyal yaşamına katkıda bulunan ve turistlerin de ilgisini çeken önemli bir doğal mekândır."
-          ],
-          "mekanFotolar": [
-            "https://images.pexels.com/photos/13923399/pexels-photo-13923399.jpeg"
-          ]
-        },
-        {
-          "mekanIsim": "Sabancı Merkez Camii",
-          "mekanAciklama": "Türkiye’nin en büyük camilerinden biri, Seyhan Nehri kıyısında.",
-          "mapsUrl": "https://maps.app.goo.gl/149C4DhTuXWvJr9q7",
-          "tags": ["eglenceliYer"],
-          "mekanDetayAciklama": "Adana’nın ve Türkiye’nin en büyük camilerinden biri olan Sabancı Merkez Camii, modern dönemin en önemli dini yapılarından biridir ve şehir siluetinin simgelerinden biri olarak öne çıkar.",
-          "mekanTarihce": [
-            "• İnşaat Yılı: 1988–1998",
-            "• Modern mimari ile klasik Osmanlı cami üslubunun birleşimi olarak tasarlanmıştır.",
-            "• Açılışından bu yana Adana’nın en büyük ibadet ve kültür merkezi olmuştur."
-          ],
-          "mekanGunumuzde": [
-            "• Cami, Adana Seyhan Nehri kıyısında, Merkez Park ve Taşköprü yakınında yer alır.",
-            "• Günlük ibadetler ve cuma namazı için açıktır.",
-            "• Turist ziyaretine de uygun olup, mimari ve estetik detayları görmek isteyenler tarafından sıkça ziyaret edilir.",
-            "• Fotoğrafçılık için özellikle gün doğumu ve gün batımı saatleri idealdir."
-          ],
-          "mekanOnemi": [
-            "• Sabancı Merkez Camii, Adana’nın ve Türkiye’nin en büyük camilerinden biri olarak dini ve kültürel açıdan önem taşır.",
-            "• Şehrin siluetine hakim olup turistik bir simge haline gelmiştir.",
-            "• Modern Osmanlı mimarisinin ve çağdaş cami tasarımının en iyi örneklerinden biri olarak kabul edilir."
+            "• 1998 yılında Sabancı Vakfı ve Türkiye Diyanet Vakfı iş birliğiyle yapılmıştır.",
+            "• 6 minaresi ve görkemli mimarisiyle dikkat çeker.",
+            "• Aynı anda 20 binden fazla kişiye ibadet imkânı sağlayacak kapasitededir.",
+            "• Günümüzde Adana’nın en önemli dini simgesi olmasının yanı sıra, mimarisiyle de şehre gelen turistlerin ilgisini çeken yapılardandır."
           ],
           "mekanFotolar": [
             "https://images.pexels.com/photos/31747888/pexels-photo-31747888.jpeg",
@@ -319,31 +76,119 @@
             "https://images.pexels.com/photos/12756407/pexels-photo-12756407.jpeg"
           ]
         },
+
+        {
+          "mekanIsim": "Seyhan Merkez Parkı",
+          "mekanAciklama": "Adana’daki Seyhan Merkez Parkı, Seyhan Nehri kıyısında yer alan ve şehrin en büyük yeşil alanlarından biri olan modern bir parktır.",
+          "mapsUrl":  "https://maps.app.goo.gl/cyUZSNHE58xpDdUS9",
+          "tagsColor": " 0xFF673AB7",
+          "mekanTarihce": [
+            "• Park, 2000’li yıllarda şehir planlaması kapsamında yapılmıştır.",
+            "• Seyhan Nehri’nin doğal güzellikleri ile uyumlu şekilde tasarlanmıştır.",
+            "• Yürüyüş yolları, bisiklet parkurları, oyun alanları ve dinlenme alanlarıyla şehir halkına hizmet verir.",
+            "• Günümüzde Adana’nın en popüler rekreasyon ve sosyal alanlarından biri olup, hem yerel halk hem de turistler tarafından sıkça ziyaret edilmektedir."
+          ],
+           "mekanFotolar": [
+            "https://images.pexels.com/photos/13923399/pexels-photo-13923399.jpeg"
+          ]
+        },
+
+        {
+          "mekanIsim": "Yağ Cami",
+          "mekanAciklama": "Adana’daki Yağ Camii, 1541 yılında Ramazanoğulları döneminde inşa edilmiş tarihi bir cami olup şehrin en eski camilerinden biridir.",
+          "mapsUrl":  "https://maps.app.goo.gl/k1SuwapRBDzoMxnE9",
+          "tagsColor": " 0xFF673AB7",
+          "mekanTarihce": [
+            "• 1541 yılında Ramazanoğlu Halil Bey tarafından yaptırılmıştır.",
+            "• Adana’nın Osmanlı dönemi mimarisini yansıtan önemli dini yapılarından biridir.",
+            "• İnşasında kesme taş ve klasik Osmanlı cami üslubu kullanılmıştır.",
+            "• Günümüzde hem ibadet hem de tarihi-gezi amaçlı ziyaret edilen bir yapıdır ve şehrin kültürel mirasında önemli bir yere sahiptir."
+          ],
+           "mekanFotolar": [
+          ]
+        },
+
+        {
+          "mekanIsim": "Varda Köprüsü",
+          "mekanAciklama": "Adana’daki Varda Köprüsü (Meso Köprüsü), 1912–1916 yılları arasında Alman mühendisler tarafından inşa edilmiş ve Türkiye’nin önemli demiryolu köprülerinden biridir.",
+          "mapsUrl": "https://maps.app.goo.gl/8SfjKtQeUJHVYGvA8",
+          "tagsColor": " 0xFF673AB7",
+          "mekanTarihce": [
+            "• 1912–1916 yılları arasında Almanya’nın mühendisleri tarafından, Toroslar bölgesinde demiryolu ulaşımını sağlamak amacıyla yapılmıştır.",
+            "• Köprü, 80 metre yükseklikte ve 172 metre uzunluğundadır; taş kemerlerle inşa edilmiştir.",
+            "• Tarihi ve mühendislik değeri ile Türkiye’nin önemli demiryolu eserlerinden biri olarak kabul edilir.",
+            "• Günümüzde hem turistik bir gezi noktası hem de bazı durumlarda demiryolu geçişi için kullanılmaktadır."
+          ],
+          "mekanFotolar": [
+            "https://images.pexels.com/photos/14663459/pexels-photo-14663459.jpeg",
+            "https://images.pexels.com/photos/29505213/pexels-photo-29505213.jpeg"
+          ]
+        },
+
+        {
+          "mekanIsim": "Tarihi Kazancılar Çarşısı",
+          "mekanAciklama": "Adana’daki Kazancılar Çarşısı, Osmanlı döneminden günümüze ulaşan tarihi bir çarşı olup bakır ve el sanatları ürünleriyle ünlüdür.",
+          "mapsUrl": "https://maps.app.goo.gl/66qVsDX6FrsToUsx9",
+          "tagsColor": " 0xFF673AB7",
+          "mekanTarihce": [
+            "• Çarşı, 17. yüzyıl civarında Osmanlı döneminde kurulmuştur.",
+            "• İsmini burada faaliyet gösteren kazancı ustalarından alır; bakır işçiliği ve el sanatlarıyla tanınır.",
+            "• Tarihi dokusu korunarak günümüze kadar gelmiştir.",
+            "• Günümüzde hem turistik bir gezi yeri hem de Adana’nın el sanatları ve kültürel miras noktalarından biri olarak önem taşır."
+          ],
+          "mekanFotolar": [
+          ]
+        },
+
         {
           "mekanIsim": "Adana Sinema Müzesi",
-          "mekanAciklama": "Türk sinemasına dair önemli eserler ve bilgiler barındırıyor.",
+          "mekanAciklama": "Adana’daki Sinema Müzesi, şehrin sinema kültürünü tanıtmak ve gelecek nesillere aktarmak amacıyla kurulmuş bir müzedir.",
           "mapsUrl": "https://maps.app.goo.gl/Tg2E2GXGpDkehKNv8",
-          "tags": ["eglenceliYer"],
-          "mekanDetayAciklama": "Adana Sinema Müzesi, Türkiye’nin önemli film şehirlerinden biri olan Adana’nın sinema tarihini ve kültürünü yansıtan bir müzedir.",
+          "tagsColor": " 0xFF673AB7",
           "mekanTarihce": [
-            "• Müze, Adana Büyükşehir Belediyesi tarafından 2011 yılında açılmıştır.",
-            "• Amacı, Adana’nın Türkiye sinema sektörüne katkısını ve Yeşilçam’a emek vermiş sanatçıları tanıtmak ve anmaktır.",
-            "• Adana, özellikle Adana Altın Koza Film Festivali ile sinema kültüründe ön plana çıkmaktadır ve müze bu bağlamda önemli bir merkezdir."
+            "• Müze, Adana Film Festivali kapsamında desteklenerek açılmıştır.",
+            "• İçerisinde yerli ve yabancı sinema tarihine ait objeler, fotoğraflar ve belgeler sergilenmektedir.",
+            "• Adana’nın sinema kültürünü yaşatmak ve tanıtmak için önemli bir merkezdir.",
+            "• Günümüzde hem turistler hem de yerel halk tarafından ziyaret edilmektedir."
           ],
-          "mekanGunumuzde": [
-            "• Müze, Adana merkezinde, şehrin kültür ve sanat alanlarına yakın bir konumda yer alır.",
-            "• Hafta içi ve hafta sonu ziyaretçilere açıktır.",
-            "• Film ve sinema meraklıları için hem eğitici hem de görsel açıdan zengin bir deneyim sunar."
+          "mekanFotolar": [
+          ]
+        },
+
+        {
+          "mekanIsim": "Adana Arkeoloji Müzesi",
+          "mekanAciklama": "Adana’daki Arkeoloji Müzesi, bölgenin tarihî ve arkeolojik eserlerini sergileyen önemli bir kültür merkezidir.",
+          "mapsUrl": "https://maps.app.goo.gl/5SSDv21FfnVij7L86",
+          "tagsColor": " 0xFF673AB7",
+          "mekanTarihce": [
+            "• Müze, Adana’nın zengin tarihî mirasını korumak ve sergilemek amacıyla kurulmuştur.",
+            "• İçerisinde Roma, Bizans ve Hitit dönemlerine ait eserler sergilenmektedir.",
+            "• Bölgenin arkeolojik geçmişini tanıtmak açısından büyük öneme sahiptir.",
+            "• Günümüzde hem yerel halk hem de turistler tarafından sıkça ziyaret edilen bir kültürel mekândır."
           ],
-          "mekanOnemi": [
-            "• Adana’nın sinema kültürünü ve tarihini koruyan önemli bir merkezdir.",
-            "• Yerel ve ulusal ölçekte sinema bilincini artırır.",
-            "• Yeşilçam ve Altın Koza Film Festivali bağlamında Adana’nın kültürel ve sanatsal mirasını yansıtır."
+          "mekanFotolar": [
+          ]
+        },
+
+        {
+          "mekanIsim": "Adana Atatürk Müzesi",
+          "mekanAciklama": "Adana’daki Atatürk Evi, Mustafa Kemal Atatürk’ün şehri ziyaretleri sırasında konakladığı tarihi bir ev olup günümüzde müze olarak hizmet vermektedir.",
+          "mapsUrl": "https://maps.app.goo.gl/ViEXJVyZYv8Tujmz8",
+          "tagsColor": " 0xFF673AB7",
+          "mekanTarihce": [
+            "• Ev, 20. yüzyıl başlarında inşa edilmiş ve Atatürk’ün Adana ziyaretlerinde kullanılmıştır.",
+            "• Mimari olarak dönemin sivil yapı örneklerini yansıtır.",
+            "• Günümüzde müze olarak korunmakta ve Atatürk’ün hayatı ve Adana ziyareti hakkında bilgiler sunmaktadır.",
+            "• Hem tarihi değer hem de eğitim ve turizm açısından şehrin önemli kültürel mekânlarından biridir."
           ],
-          "mekanFotolar": []
+          "mekanFotolar": [
+          ]
         }
       ]
     },
+
+
+
     {
       "ulkeKodu": "TR",
       "sehirNumara": "02",
@@ -354,10 +199,7 @@
           "mekanAciklama": "Roma döneminden kalma tarihi köprü, Seyhan Nehri üzerinde bulunuyor.",
           "mapsUrl": null,
           "tags": ["tarihiYer"],
-          "mekanDetayAciklama": null,
           "mekanTarihce": [],
-          "mekanGunumuzde": [],
-          "mekanOnemi": [],
           "mekanFotolar": []
         },
         {
@@ -365,10 +207,7 @@
           "mekanAciklama": "Şehrin merkezinde büyük bir park, yürüyüş ve dinlenme için ideal.",
           "mapsUrl": null,
           "tags": ["tarihiYer"],
-          "mekanDetayAciklama": null,
           "mekanTarihce": [],
-          "mekanGunumuzde": [],
-          "mekanOnemi": [],
           "mekanFotolar": []
         },
         {
@@ -376,10 +215,7 @@
           "mekanAciklama": "Adana'nın simgesi olan camii, modern ve klasik mimarinin birleşimi.",
           "mapsUrl": null,
           "tags": ["tarihiYer"],
-          "mekanDetayAciklama": null,
           "mekanTarihce": [],
-          "mekanGunumuzde": [],
-          "mekanOnemi": [],
           "mekanFotolar": []
         }
       ]
@@ -394,10 +230,7 @@
           "mekanAciklama": "Roma döneminden kalma tarihi köprü, Seyhan Nehri üzerinde bulunuyor.",
           "mapsUrl": null,
           "tags": ["tarihiYer"],
-          "mekanDetayAciklama": null,
           "mekanTarihce": [],
-          "mekanGunumuzde": [],
-          "mekanOnemi": [],
           "mekanFotolar": []
         },
         {
@@ -405,10 +238,7 @@
           "mekanAciklama": "Şehrin merkezinde büyük bir park, yürüyüş ve dinlenme için ideal.",
           "mapsUrl": null,
           "tags": ["tarihiYer"],
-          "mekanDetayAciklama": null,
           "mekanTarihce": [],
-          "mekanGunumuzde": [],
-          "mekanOnemi": [],
           "mekanFotolar": []
         },
         {
@@ -416,10 +246,7 @@
           "mekanAciklama": "Adana'nın simgesi olan camii, modern ve klasik mimarinin birleşimi.",
           "mapsUrl": null,
           "tags": ["tarihiYer"],
-          "mekanDetayAciklama": null,
           "mekanTarihce": [],
-          "mekanGunumuzde": [],
-          "mekanOnemi": [],
           "mekanFotolar": []
         }
       ]
@@ -434,10 +261,7 @@
           "mekanAciklama": "Roma döneminden kalma tarihi köprü, Seyhan Nehri üzerinde bulunuyor.",
           "mapsUrl": null,
           "tags": ["tarihiYer"],
-          "mekanDetayAciklama": null,
           "mekanTarihce": [],
-          "mekanGunumuzde": [],
-          "mekanOnemi": [],
           "mekanFotolar": []
         },
         {
@@ -445,10 +269,7 @@
           "mekanAciklama": "Şehrin merkezinde büyük bir park, yürüyüş ve dinlenme için ideal.",
           "mapsUrl": null,
           "tags": ["tarihiYer"],
-          "mekanDetayAciklama": null,
           "mekanTarihce": [],
-          "mekanGunumuzde": [],
-          "mekanOnemi": [],
           "mekanFotolar": []
         },
         {
@@ -456,10 +277,7 @@
           "mekanAciklama": "Adana'nın simgesi olan camii, modern ve klasik mimarinin birleşimi.",
           "mapsUrl": null,
           "tags": ["tarihiYer"],
-          "mekanDetayAciklama": null,
           "mekanTarihce": [],
-          "mekanGunumuzde": [],
-          "mekanOnemi": [],
           "mekanFotolar": []
         }
       ]
@@ -474,10 +292,7 @@
           "mekanAciklama": "Roma döneminden kalma tarihi köprü, Seyhan Nehri üzerinde bulunuyor.",
           "mapsUrl": null,
           "tags": ["tarihiYer"],
-          "mekanDetayAciklama": null,
           "mekanTarihce": [],
-          "mekanGunumuzde": [],
-          "mekanOnemi": [],
           "mekanFotolar": []
         },
         {
@@ -485,10 +300,7 @@
           "mekanAciklama": "Şehrin merkezinde büyük bir park, yürüyüş ve dinlenme için ideal.",
           "mapsUrl": null,
           "tags": ["tarihiYer"],
-          "mekanDetayAciklama": null,
           "mekanTarihce": [],
-          "mekanGunumuzde": [],
-          "mekanOnemi": [],
           "mekanFotolar": []
         },
         {
@@ -496,10 +308,7 @@
           "mekanAciklama": "Adana'nın simgesi olan camii, modern ve klasik mimarinin birleşimi.",
           "mapsUrl": null,
           "tags": ["tarihiYer"],
-          "mekanDetayAciklama": null,
           "mekanTarihce": [],
-          "mekanGunumuzde": [],
-          "mekanOnemi": [],
           "mekanFotolar": []
         }
       ]
@@ -514,10 +323,7 @@
           "mekanAciklama": "Roma döneminden kalma tarihi köprü, Seyhan Nehri üzerinde bulunuyor.",
           "mapsUrl": null,
           "tags": ["tarihiYer"],
-          "mekanDetayAciklama": null,
           "mekanTarihce": [],
-          "mekanGunumuzde": [],
-          "mekanOnemi": [],
           "mekanFotolar": []
         },
         {
@@ -525,10 +331,7 @@
           "mekanAciklama": "Şehrin merkezinde büyük bir park, yürüyüş ve dinlenme için ideal.",
           "mapsUrl": null,
           "tags": ["tarihiYer"],
-          "mekanDetayAciklama": null,
           "mekanTarihce": [],
-          "mekanGunumuzde": [],
-          "mekanOnemi": [],
           "mekanFotolar": []
         },
         {
@@ -536,10 +339,7 @@
           "mekanAciklama": "Adana'nın simgesi olan camii, modern ve klasik mimarinin birleşimi.",
           "mapsUrl": null,
           "tags": ["tarihiYer"],
-          "mekanDetayAciklama": null,
           "mekanTarihce": [],
-          "mekanGunumuzde": [],
-          "mekanOnemi": [],
           "mekanFotolar": []
         }
       ]
@@ -554,10 +354,7 @@
           "mekanAciklama": "Roma döneminden kalma tarihi köprü, Seyhan Nehri üzerinde bulunuyor.",
           "mapsUrl": null,
           "tags": ["tarihiYer"],
-          "mekanDetayAciklama": null,
           "mekanTarihce": [],
-          "mekanGunumuzde": [],
-          "mekanOnemi": [],
           "mekanFotolar": []
         },
         {
@@ -565,10 +362,7 @@
           "mekanAciklama": "Şehrin merkezinde büyük bir park, yürüyüş ve dinlenme için ideal.",
           "mapsUrl": null,
           "tags": ["tarihiYer"],
-          "mekanDetayAciklama": null,
           "mekanTarihce": [],
-          "mekanGunumuzde": [],
-          "mekanOnemi": [],
           "mekanFotolar": []
         },
         {
@@ -576,10 +370,7 @@
           "mekanAciklama": "Adana'nın simgesi olan camii, modern ve klasik mimarinin birleşimi.",
           "mapsUrl": null,
           "tags": ["tarihiYer"],
-          "mekanDetayAciklama": null,
           "mekanTarihce": [],
-          "mekanGunumuzde": [],
-          "mekanOnemi": [],
           "mekanFotolar": []
         }
       ]
