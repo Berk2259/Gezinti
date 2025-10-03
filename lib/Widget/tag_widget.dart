@@ -18,4 +18,9 @@ class TagWidget {
     color: Colors.lightGreen,
     size: 30,
   );
+  static final Icon muze = Icon(
+    FontAwesomeIcons.tag,
+    color: ColorWidget.blue500,
+    size: 30,
+  );
 }

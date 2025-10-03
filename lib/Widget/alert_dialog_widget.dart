@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+import 'package:gezinti/Widget/alert_diaolog_tag_yapi_widget.dart';
 import 'package:gezinti/Widget/widget.dart';
 
 //Şehirlerde üstte appBarda açılan bilgilendirme kısmının yapısal özelliği burada bulunur
@@ -21,56 +22,25 @@ class AlertDialogWidget extends StatelessWidget {
                 'Etiket Anlamları',
                 style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
               ),
-              Column(
-                children: [
-                  Row(
-                    children: [
-                      Icon(FontAwesomeIcons.tag, color: ColorWidget.red500),
-                      Padding(
-                        padding: const EdgeInsets.only(left: 16.0),
-                        child: Text(
-                          'Tarihi Mekanlar',
-                          style: TextStyle(fontSize: 18),
-                        ),
-                      ),
-                    ],
-                  ),
-                  Text('Tarihi mekanları belirten etiket'),
-                ],
+              AlertDiaologTagYapiWidget(
+                tagText: 'Tarihi Mekanlar',
+                tagDetayText: 'Tarihi mekanları belirten etiket',
+                tagColor: ColorWidget.red500,
               ),
-              Column(
-                children: [
-                  Row(
-                    children: [
-                      Icon(FontAwesomeIcons.tag, color: Colors.deepPurple),
-                      Padding(
-                        padding: const EdgeInsets.only(left: 16.0),
-                        child: Text(
-                          'Doğal Güzellikler',
-                          style: TextStyle(fontSize: 18),
-                        ),
-                      ),
-                    ],
-                  ),
-                  Text('Doğal Mekanları belirten etiket'),
-                ],
+              AlertDiaologTagYapiWidget(
+                tagText: 'Doğal Güzellikler',
+                tagDetayText: 'Doğal Mekanları belirten etiket',
+                tagColor: Colors.deepPurple,
               ),
-              Column(
-                children: [
-                  Row(
-                    children: [
-                      Icon(FontAwesomeIcons.tag, color: Colors.lightGreen),
-                      Padding(
-                        padding: const EdgeInsets.only(left: 16.0),
-                        child: Text(
-                          'Eğlenceli Yerler',
-                          style: TextStyle(fontSize: 18),
-                        ),
-                      ),
-                    ],
-                  ),
-                  Text('Eğlenceli Yerleri belirten etiket'),
-                ],
+              AlertDiaologTagYapiWidget(
+                tagText: 'Eğlenceli Yerler',
+                tagDetayText: 'Eğlenceli Yerleri belirten etiket',
+                tagColor: Colors.lightGreen,
+              ),
+              AlertDiaologTagYapiWidget(
+                tagText: 'Müze',
+                tagDetayText: 'Müzeler için belirtilen etiket',
+                tagColor: ColorWidget.blue500,
               ),
               SizedBox(height: 30),
             ],
