@@ -5,3 +5,5 @@ export 'alert_dialog_widget.dart';
 export 'konum_button_widget.dart';
 export 'detay_button_widget.dart';
 export 'sehir_detail_baslik_widget.dart';
+export 'alert_diaolog_tag_yapi_widget.dart';
+export 'information_acilan_kisim_widget.dart';
