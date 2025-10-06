@@ -81,7 +81,7 @@
           "mekanIsim": "Seyhan Merkez Parkı",
           "mekanAciklama": "Adana’daki Seyhan Merkez Parkı, Seyhan Nehri kıyısında yer alan ve şehrin en büyük yeşil alanlarından biri olan modern bir parktır.",
           "mapsUrl":  "https://maps.app.goo.gl/cyUZSNHE58xpDdUS9",
-          "tagsColor": " 0xFF673AB7",
+          "tagsColor": "0xFF673AB7",
           "mekanTarihce": [
             "• Park, 2000’li yıllarda şehir planlaması kapsamında yapılmıştır.",
             "• Seyhan Nehri’nin doğal güzellikleri ile uyumlu şekilde tasarlanmıştır.",
@@ -97,7 +97,7 @@
           "mekanIsim": "Yağ Cami",
           "mekanAciklama": "Adana’daki Yağ Camii, 1541 yılında Ramazanoğulları döneminde inşa edilmiş tarihi bir cami olup şehrin en eski camilerinden biridir.",
           "mapsUrl":  "https://maps.app.goo.gl/k1SuwapRBDzoMxnE9",
-          "tagsColor": " 0xFF673AB7",
+          "tagsColor": "0xFFF44336",
           "mekanTarihce": [
             "• 1541 yılında Ramazanoğlu Halil Bey tarafından yaptırılmıştır.",
             "• Adana’nın Osmanlı dönemi mimarisini yansıtan önemli dini yapılarından biridir.",
@@ -112,7 +112,7 @@
           "mekanIsim": "Varda Köprüsü",
           "mekanAciklama": "Adana’daki Varda Köprüsü (Meso Köprüsü), 1912–1916 yılları arasında Alman mühendisler tarafından inşa edilmiş ve Türkiye’nin önemli demiryolu köprülerinden biridir.",
           "mapsUrl": "https://maps.app.goo.gl/8SfjKtQeUJHVYGvA8",
-          "tagsColor": " 0xFF673AB7",
+          "tagsColor": "0xFFF44336",
           "mekanTarihce": [
             "• 1912–1916 yılları arasında Almanya’nın mühendisleri tarafından, Toroslar bölgesinde demiryolu ulaşımını sağlamak amacıyla yapılmıştır.",
             "• Köprü, 80 metre yükseklikte ve 172 metre uzunluğundadır; taş kemerlerle inşa edilmiştir.",
@@ -129,7 +129,7 @@
           "mekanIsim": "Tarihi Kazancılar Çarşısı",
           "mekanAciklama": "Adana’daki Kazancılar Çarşısı, Osmanlı döneminden günümüze ulaşan tarihi bir çarşı olup bakır ve el sanatları ürünleriyle ünlüdür.",
           "mapsUrl": "https://maps.app.goo.gl/66qVsDX6FrsToUsx9",
-          "tagsColor": " 0xFF673AB7",
+          "tagsColor": "0xFFF44336",
           "mekanTarihce": [
             "• Çarşı, 17. yüzyıl civarında Osmanlı döneminde kurulmuştur.",
             "• İsmini burada faaliyet gösteren kazancı ustalarından alır; bakır işçiliği ve el sanatlarıyla tanınır.",
@@ -144,7 +144,7 @@
           "mekanIsim": "Adana Sinema Müzesi",
           "mekanAciklama": "Adana’daki Sinema Müzesi, şehrin sinema kültürünü tanıtmak ve gelecek nesillere aktarmak amacıyla kurulmuş bir müzedir.",
           "mapsUrl": "https://maps.app.goo.gl/Tg2E2GXGpDkehKNv8",
-          "tagsColor": " 0xFF673AB7",
+          "tagsColor": "0xFF2196F3",
           "mekanTarihce": [
             "• Müze, Adana Film Festivali kapsamında desteklenerek açılmıştır.",
             "• İçerisinde yerli ve yabancı sinema tarihine ait objeler, fotoğraflar ve belgeler sergilenmektedir.",
@@ -159,7 +159,7 @@
           "mekanIsim": "Adana Arkeoloji Müzesi",
           "mekanAciklama": "Adana’daki Arkeoloji Müzesi, bölgenin tarihî ve arkeolojik eserlerini sergileyen önemli bir kültür merkezidir.",
           "mapsUrl": "https://maps.app.goo.gl/5SSDv21FfnVij7L86",
-          "tagsColor": " 0xFF673AB7",
+          "tagsColor": "0xFF2196F3",
           "mekanTarihce": [
             "• Müze, Adana’nın zengin tarihî mirasını korumak ve sergilemek amacıyla kurulmuştur.",
             "• İçerisinde Roma, Bizans ve Hitit dönemlerine ait eserler sergilenmektedir.",
@@ -174,7 +174,7 @@
           "mekanIsim": "Adana Atatürk Müzesi",
           "mekanAciklama": "Adana’daki Atatürk Evi, Mustafa Kemal Atatürk’ün şehri ziyaretleri sırasında konakladığı tarihi bir ev olup günümüzde müze olarak hizmet vermektedir.",
           "mapsUrl": "https://maps.app.goo.gl/ViEXJVyZYv8Tujmz8",
-          "tagsColor": " 0xFF673AB7",
+          "tagsColor": "0xFF2196F3",
           "mekanTarihce": [
             "• Ev, 20. yüzyıl başlarında inşa edilmiş ve Atatürk’ün Adana ziyaretlerinde kullanılmıştır.",
             "• Mimari olarak dönemin sivil yapı örneklerini yansıtır.",
