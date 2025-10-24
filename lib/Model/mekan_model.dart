@@ -3,6 +3,7 @@
 import 'package:flutter/material.dart';
 
 class MekanModel {
+  int? id; // SQLite için otomatik artan id
   final String mekanIsim;
   final String mekanAciklama;
   final String? mapsUrl;
@@ -10,6 +11,7 @@ class MekanModel {
   final List<String>? mekanTarihce;
   final List<String>? mekanFotolar;
   MekanModel({
+    this.id,
     required this.mekanIsim,
     required this.mekanAciklama,
     this.mapsUrl,
@@ -18,24 +20,27 @@ class MekanModel {
     this.mekanFotolar,
   });
 
-  // JSON'dan MekanModel'e dönüştürme
   factory MekanModel.fromJson(Map<String, dynamic> json) {
     return MekanModel(
+      id: json['id'],
       mekanIsim: json['mekanIsim'],
       mekanAciklama: json['mekanAciklama'],
       mapsUrl: json['mapsUrl'],
-      tagColor:
-          json['tagsColor'] != null
-              ? Color(int.parse(json['tagsColor']))
-              : Colors.blue,
-      mekanTarihce:
-          json['mekanTarihce'] != null
-              ? List<String>.from(json['mekanTarihce'])
-              : [],
-      mekanFotolar:
-          json['mekanFotolar'] != null
-              ? List<String>.from(json['mekanFotolar'])
-              : [],
+      tagColor: json['tagsColor'],
+      mekanTarihce: List<String>.from(json['mekanTarihce']),
+      mekanFotolar: List<String>.from(json['mekanFotolar']),
     );
+  }
+
+  Map<String, dynamic> toJson() {
+    return {
+      'id': id,
+      'mekanIsim': mekanIsim,
+      'mekanAciklama': mekanAciklama,
+      'mapsUrl': mapsUrl,
+      'tagsColor': tagColor,
+      'mekanTarihce': mekanTarihce,
+      'mekanFotolar': mekanFotolar,
+    };
   }
 }

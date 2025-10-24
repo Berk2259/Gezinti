@@ -23,4 +23,12 @@ class UlkeSehirModel {
           .toList(),
     );
   }
+  Map<String, dynamic> toJson() {
+    return {
+      'ulkeKodu': ulkeKodu,
+      'sehirNumara': sehirNumara,
+      'sehirIsim': sehirIsim,
+      'mekanlar': mekanlar.map((m) => m.toJson()).toList(),
+    };
+  }
 }
